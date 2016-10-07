@@ -1,7 +1,7 @@
 /* 
  * Name:    DarkSearch for Google
  * Author:  Nass O
- * Version: 21052016.01
+ * Version: 07102016.01
  */
  
 /* Background */
@@ -556,7 +556,9 @@ option {
     color: #A6A6A6!important;
 }
 
-
+._Qsh {
+color: #c5c5c5!important;
+}
 
 
 
