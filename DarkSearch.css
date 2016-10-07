@@ -526,11 +526,11 @@ div._uhe a._Zjg span.rhsg3 {
 }
 .tw-menu-btn {
   /*  opacity: 0.3!important;*/
-    color: rgba(255, 255, 255, 0.54);
+    color: rgba(255, 255, 255, 0.54)!important;
 }
 .tw-menu-btn:hover {
     /*opacity: 1!important;*/
-    color: rgba(208, 208, 208, 0.87);
+    color: rgba(208, 208, 208, 0.87)!important;
 }
 
 .tw-data-text,pre#tw-target-text,textarea#tw-source-text-ta {
@@ -542,7 +542,7 @@ div._uhe a._Zjg span.rhsg3 {
 option {
     background: #222222;
 }
-.tw-bilingual-marked, .tw-bilingual-marked * {
+.tw-bilingual-entries .tw-bilingual-marked, .tw-bilingual-entries .tw-bilingual-marked * {
     color: rosybrown!important;
 }
 /* Weather */
@@ -554,7 +554,7 @@ option {
     background-color: #CACACA;
     border-top: 2px solid #989898;
 }
-.vk_bk.sol-tmp ,.wob_t .vk_bk,.vk_bk,.vk_bk.wob-unit{
+.vk_bk.sol-tmp ,.wob_t .vk_bk,.vk_bk,.vk_bk.wob-unit,.tw-bilingual-entry{
     color: #A6A6A6!important;
 }
 
