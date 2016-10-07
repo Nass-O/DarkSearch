@@ -1,30 +1,30 @@
-/* 
+/*
  * Name:    DarkSearch for Google
  * Author:  Nass O
- * Version: 07102016.01
+ * Version: 07102016.02
  */
- 
+
 /* Background */
 html,body,#cnt,.rg_l,#botabar {
 background: #101010 !important;
 color: #c5c5c5;
 }
 /* Inverting colors */
-#wob_gsp,.gb_Qb,._kac,.gb_Pb,#qbi,.ab_icon,.gb_Nb,.gsok_a,._Fnc,._Jxg,.stt-uf,._dVi,.kcb.checked::after,._gW {
+.gb_Vb,#wob_gsp,.gb_Qb,._kac,.gb_Pb,#qbi,.ab_icon,.gb_Nb,.gsok_a,._Fnc,._Jxg,.stt-uf,._dVi,.kcb.checked::after,._gW {
 -webkit-filter: invert(1)grayscale(1)!important;
 	-moz-filter: invert(1)grayscale(1)!important;
 	filter: invert(1)grayscale(1)!important;
-} 
+}
 ._Zgf{
 -webkit-filter: invert(.6)grayscale(1)!important;
 	-moz-filter: invert(.6)grayscale(1)!important;
 	filter: invert(.6)grayscale(1)!important;
-} 
+}
 ._n0b {
 -webkit-filter: invert(0.3)!important;
 	-moz-filter: invert(0.3)!important;
 	filter: invert(0.3)!important;
-} 
+}
 /* Images opacity */
 #hplogo,#logo img,.gbii {
     opacity: 0.7;
@@ -159,7 +159,7 @@ a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a
 }
 /* URL color #69AC82 */
 .a, cite, cite a:link, cite a:visited, .cite, .cite:link, #_bGc>i, .bc a:link,._IId {
-    color: #85A691!important; 
+    color: #85A691!important;
 }
 /* Strong Blue links #54A6F8 */
 #hdtb-msb .hdtb-mitem.hdtb-msel, #hdtb-msb .hdtb-mitem.hdtb-msel-pre {
@@ -300,7 +300,7 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 .rg_fbl,.rg_fbl:hover {
     border: 1px solid #2C2C2C!important;
  }
-/* Separators */ 
+/* Separators */
 #ifbd,.rgsep,.klbar,.rl_center {
     background: #151515!important;
     border-color: #151515!important;
@@ -348,7 +348,7 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 /* Extra bar */
 .rl_container,.rlc__slider,.rlc__slider-page,.flt-date {
     background: #222222!important;
-} 
+}
 .rl_selected,.rl_item:hover {
     background-color: #202020!important;
 }
@@ -370,7 +370,7 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
     background-color: #0D0D0D!important;
 }
 
-/* Titles in containers */ 
+/* Titles in containers */
 div[style="color:#777;vertical-align:top"],span._xdb a.fl,._W5e._X5e a,._yE ._wI,._W5e {
     color: #ccc!important;
 }
