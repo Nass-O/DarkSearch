@@ -714,11 +714,9 @@ input#lst-ib {
 
 /* Privacy Policy */
 ._gIg {
-    color: rgba(255, 255, 255, 0.87);
+    color: rgba(255, 255, 255, 0.87)!important;
 }
 ._vGg {
-    background: #101010;
-}
-._vGg {
-    border-bottom: 1px solid #252525;
+    background: #101010!important;
+    border-bottom-color: #252525!important;
 }
