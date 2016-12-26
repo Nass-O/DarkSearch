@@ -241,6 +241,12 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
     margin: 0;
 }
 
+/* Disabled button */
+button.duf3sb:disabled {
+    background-color: #242931!important;
+    border-color: #242931!important;
+}
+
 /* Dropdown background */
 .ab_dropdown,.hdtb-mn-o, .hdtb-mn-c,.goog-menu,._-F,.gstl_50 .sbdd_a,.sbsb_b,.sbdd_b, ._vx, #fsett  {
     background-color: #222!important;
