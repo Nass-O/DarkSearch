@@ -786,7 +786,12 @@ input#qbfile {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#626262),to(#626262));
     background-color: #626262;
 }
-
+#qbut .qbptr, #qbft .qbptr {
+    border-bottom-color: #131313!important;
+}
+#qbut .qbctnt, #qbft .qbctnt {
+    background: #131313!important;
+}
 
 /* Custom image parameters search popup */
 .cdr_dlg, .exydlg {
