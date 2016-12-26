@@ -182,10 +182,10 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 
 /* Button Shadow */
 .jhp input[type="submit"], .sbdd_a input, .gbqfba {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#191919));
-    background-image: -webkit-linear-gradient(top,#222,#191919);
-    background-image: -moz-linear-gradient(center top , #222, #191919);
-    background-image: -o-linear-gradient(top,#222,#191919);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#222));
+    background-image: -webkit-linear-gradient(top,#222,#222);
+    background-image: -moz-linear-gradient(center top , #222, #222);
+    background-image: -o-linear-gradient(top,#222,#222);
     background-color: #222;
     border-color: #242424;
     color: #acacac;
