@@ -736,12 +736,19 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 
 
 /* Voice search */
-.s2tb .spchc, .s2tb-h .spchc {
+.s2tb .spchc, .s2tb-h .spchc, .spch {
   background: #171717!important;
 }
 .s2tb.spch {
     background: rgba(0, 0, 0, 0.7)!important;
-  }
+}
+.s2fp .button, .s2tb .button {
+    background-color: #171717!important;
+    border-color: #2d2d2d!important;
+}
+._CMb {
+    background-color: #222!important;
+}
 
 /* search by image */
 #qbp {
