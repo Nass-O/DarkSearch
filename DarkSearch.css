@@ -26,18 +26,18 @@ html,body,#cnt,.rg_l,#botabar {
     filter: grayscale(.6)!important;
 }
 ._n0b, .gb_Xb, ._MNk._wtf svg {
-    -webkit-filter: invert(0.9)!important;
-    -moz-filter: invert(0.9)!important;
-    filter: invert(0.9)!important;
+    -webkit-filter: invert(.9)!important;
+    -moz-filter: invert(.9)!important;
+    filter: invert(.9)!important;
 }
 #qbx {
-    -webkit-filter: invert(0.3)!important;
-    -moz-filter: invert(0.3)!important;
-    filter: invert(0.3)!important;
+    -webkit-filter: invert(.3)!important;
+    -moz-filter: invert(.3)!important;
+    filter: invert(.3)!important;
 }
 /* Images opacity */
 #hplogo,#logo img,.gbii {
-    opacity: 0.7;
+    opacity: .7;
     transition: opacity .2s;
 }
 #hplogo:hover,#logo img:hover,.gbii:hover {
@@ -52,28 +52,22 @@ html,body,#cnt,.rg_l,#botabar {
     background: #1e1e1e!important;
     border: 1px solid #252525!important;
 }
-
 *::-webkit-scrollbar-button {
     display: none!important;
 }
-
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-track {
     border: 0!important;
     box-shadow: none!important;
 }
-
 *::-webkit-scrollbar-thumb {
     min-height: 28px!important;
     background: #333!important;
 }
-
 *::-webkit-scrollbar-corner,
 *::-webkit-scrollbar-track {
     background: #1e1e1e!important;
 }
-
-
 
 /* Text Input #C5C5C5 */
 input,#lst-ib,select {
@@ -215,9 +209,9 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 }
 #hdtb-msb .hdtb-tl-sel, #hdtb-msb .hdtb-tl-sel:hover {
     background: -webkit-linear-gradient(top,#191919,#101010) !important;
-    -webkit-box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.1)!important;
+    -webkit-box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.1)!important;
     border: 1px solid #262626!important;
-    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,0.1)!important;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.1)!important;
 }
 #gb .gb_qb a.gb_wb.gb_wb {
     color: #fff!important;
@@ -241,8 +235,8 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
     background-image: -webkit-linear-gradient(top,#101010,#1E1E1E);
     background-image: -moz-linear-gradient(center top , #101010, #1E1E1E);
     border: 1px solid #262626;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
     color: #afafaf;
     margin: 0;
 }
@@ -250,8 +244,8 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 /* Dropdown background */
 .ab_dropdown,.hdtb-mn-o, .hdtb-mn-c,.goog-menu,._-F,.gstl_50 .sbdd_a,.sbsb_b,.sbdd_b, ._vx, #fsett  {
     background-color: #222!important;
-    border: 1px solid rgb(38, 38, 38)!important;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2)!important;
+    border: 1px solid rgb(38,38,38)!important;
+    box-shadow: 0 2px 4px rgba(0,0,0,.2)!important;
 }
 .hdtbItm, .o2ji6GoAIDp__menu, .sc {
     background-color: #222!important;
@@ -419,7 +413,7 @@ div._uhe a._Zjg span.rhsg3,#irl_r_a,.qbtbtxt.qbclr:hover {
     color: #ADADAD!important;
 }
 ._Rsi {
-    color: rgba(224, 224, 224, 0.87)!important;
+    color: rgba(224,224,224,.87)!important;
 }
 
 /* Calculator */
@@ -444,7 +438,6 @@ div._uhe a._Zjg span.rhsg3,#irl_r_a,.qbtbtxt.qbclr:hover {
     border: 1px solid #353535!important;
     color: #B3B3B3!important;
 }
-
 .cwdgb-tpl {
     background-image: -moz-linear-gradient(top,#3B3B3B,#3B3B3B)!important;
     background-image: -ms-linear-gradient(top,#3B3B3B,#3B3B3B)!important;
@@ -521,11 +514,11 @@ div._uhe a._Zjg span.rhsg3,#irl_r_a,.qbtbtxt.qbclr:hover {
 }
 .tw-menu-btn {
     /*  opacity: 0.3!important;*/
-    color: rgba(255, 255, 255, 0.54)!important;
+    color: rgba(255,255,255,.54)!important;
 }
 .tw-menu-btn:hover {
     /*opacity: 1!important;*/
-    color: rgba(208, 208, 208, 0.87)!important;
+    color: rgba(208,208,208,.87)!important;
 }
 
 .tw-data-text,pre#tw-target-text,textarea#tw-source-text-ta {
@@ -627,10 +620,10 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
     background: #101010!important;
 }
 ._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n {
-    color: rgba(255, 255, 255, 0.87)!important;
+    color: rgba(255,255,255,.87)!important;
 }
 ._x2i ._baf, ._wje, ._jGl, ._mGl {
-    color: rgba(255, 255, 255, 0.54)!important;
+    color: rgba(255,255,255,.54)!important;
 }
 ._sWe ._Vsf:first-child, ._Vsf, ._sWe ._b1j {
     border-top-color: #1d1d1d!important;
@@ -648,19 +641,19 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 }
 .oly-ob .oly-card-ttl,.oly_bcl__padding-wrap {
     background: #1d1d1d!important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.16)!important;
+    border-bottom: 1px solid rgba(255,255,255,.16)!important;
 }
 .oly-lght-txt {
-    color: rgba(200, 200, 200, 0.54)!important;
+    color: rgba(200,200,200,.54)!important;
 }
 .oly_mbt__hltd-medal-row td,._Dji {
     background: #1e1e1e!important;
 }
 .oly_mbt__rank {
-    color: rgba(255, 255, 255, 0.54)!important;
+    color: rgba(255,255,255,.54)!important;
 }
 ._cki {
-    color: rgba(169, 169, 169, 0.87)!important;
+    color: rgba(169,169,169,.87)!important;
 }
 
 /* Frontpage Aplications Dropdown */
@@ -683,7 +676,6 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
     border-color: #343434;
 }
 .gb_kb {
-    border-bottom-color: #555;
     border-bottom-color: #343434;
 }
 .gb_Cb:hover {
@@ -713,7 +705,7 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 
 /* Privacy Policy */
 ._gIg, ._WJg {
-    color: rgba(255, 255, 255, 0.87)!important;
+    color: rgba(255,255,255,.87)!important;
 }
 ._vGg {
     background: #101010!important;
@@ -734,13 +726,12 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
     background: #222;
 }
 
-
 /* Voice search */
 .s2tb .spchc, .s2tb-h .spchc, .spch {
   background: #171717!important;
 }
 .s2tb.spch {
-    background: rgba(0, 0, 0, 0.7)!important;
+    background: rgba(0,0,0,.7)!important;
 }
 .s2fp .button, .s2tb .button {
     background-color: #171717!important;
@@ -753,7 +744,7 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 /* search by image */
 #qbp {
     background: #1a1a1a!important;
-    border: 1px solid rgba(55, 55, 55, 0.2)!important;
+    border: 1px solid rgba(55,55,55,.2)!important;
 }
 #qbdp {
     background: #222!important;
@@ -797,15 +788,15 @@ input#qbfile {
 .cdr_dlg, .exydlg {
     background: #101010!important;
     border-color: #222!important;
-    box-shadow: 0 4px 16px rgba(150, 150, 150, 0.2)!important;
+    box-shadow: 0 4px 16px rgba(150,150,150,.2)!important;
 }
 .cdr_bg, .exybg {
     background: #000!important;
 }
 .cdr_cls, .exycls {
-    -webkit-filter: invert(0.94)!important;
-    -moz-filter: invert(0.94)!important;
-    filter: invert(0.94);
+    -webkit-filter: invert(.94)!important;
+    -moz-filter: invert(.94)!important;
+    filter: invert(.94);
 }
 .cdr_dlg .goog-date-picker, .cdr_highl, .exyhlt {
     background-color: #161616!important;
@@ -826,24 +817,29 @@ button.goog-date-picker-btn.goog-date-picker-nextMonth.cdr_dd {
 /* Share & Feedback popup */
 ._m8j, .fAwjXaCTMo5__content, div.duf3d {
     background-color: #101010;
-    -webkit-box-shadow: 0px 5px 26px 0px rgba(150,150,150,0.22), 0px 20px 28px 0px rgba(0,0,0,0.30)!important;
-    box-shadow: 0px 5px 26px 0px rgba(150,150,150,0.22), 0px 20px 28px 0px rgba(0,0,0,0.30)!important;
+    -webkit-box-shadow: 0 5px 26px 0 rgba(150,150,150,0.22)!important;
+    box-shadow: 0 5px 26px 0 rgba(150,150,150,0.22)!important;
 }
 ._dyj, ._Gxj, ._Dfm {
     color: rgba(255,255,255,.87)!important;
 }
 ._Bxk {
-    color: rgba(255, 255, 255, 0.54)!important;
+    color: rgba(255,255,255,.54)!important;
 }
 .duf3x {
-    -webkit-filter: invert(0.94)!important;
-    -moz-filter: invert(0.94)!important;
-    filter: invert(0.94);
+    -webkit-filter: invert(.94)!important;
+    -moz-filter: invert(.94)!important;
+    filter: invert(.94);
 }
 div.duf3c input[type=radio]:active {
     border-color: #333;
     background: #222;
 }
 div.duf3c input[type=radio] {
-    border: 1px solid #222;
+    border-color: #222;
+}
+textarea {
+    background-color: #101010!important;
+    color: #c5c5c5;
+    padding: 2px!important;
 }
