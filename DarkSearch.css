@@ -126,7 +126,7 @@ input {
 }
 
 /* Links (blue) #89A2CF*/
-a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited,a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a.fl.q._KCd._tWc,.st .f .fl {
+a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited,a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a.fl.q._KCd._tWc,.st .f .fl, div.duf3d a {
     color: #9BAED2!important;
 }
 
@@ -567,10 +567,10 @@ option {
     background-color: #1E1E1E!important;
     border-top: 2px solid #2C2C2C!important;
 }
-._yX td {
+._yX td, ._P4k {
     border-top: 1px solid #303030!important;
 }
-.knowledge-webanswers_table__webanswers-table tr,._qhf {
+.knowledge-webanswers_table__webanswers-table tr,._qhf, .vk_gbt, ._bXm {
     border-color: #1D1D1D!important;
 }
 .knowledge-webanswers_table__webanswers-table th {
@@ -600,7 +600,7 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 .action-menu .mn-dwn-arw {
     border-color: #A9B1C3 transparent!important;
 }
-._Fmb, ._Fmb:hover, ._Fmb.selected, ._Fmb.selected:hover, ._xe {
+._Fmb, ._Fmb:hover, ._Fmb.selected, ._Fmb.selected:hover, ._xe, ._ajl {
     background: #101010!important;
 }
 .cdr_sep,.ab_dropdownrule,._wx {
@@ -623,13 +623,13 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 .kappbar {
     background: #1d1d1d!important;
 }
-.mlo-c, .klitem:hover, g-fab._jAg._uqh {
+.mlo-c, .klitem:hover, g-fab._jAg._uqh, ._bjl {
     background: #101010!important;
 }
-._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke {
+._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n {
     color: rgba(255, 255, 255, 0.87)!important;
 }
-._x2i ._baf, ._wje {
+._x2i ._baf, ._wje, ._jGl, ._mGl {
     color: rgba(255, 255, 255, 0.54)!important;
 }
 ._sWe ._Vsf:first-child, ._Vsf, ._sWe ._b1j {
@@ -637,6 +637,9 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 }
 ._lXc {
     border-bottom-color: #1d1d1d!important;
+}
+._cXm {
+    filter: invert(.5);
 }
 
 /* Special Events (euro, world cup, olympics) */
@@ -804,8 +807,8 @@ button.goog-date-picker-btn.goog-date-picker-nextMonth.cdr_dd {
     color: #333!important;
 }
 
-/* Share popup */
-._m8j, .fAwjXaCTMo5__content {
+/* Share & Feedback popup */
+._m8j, .fAwjXaCTMo5__content, div.duf3d {
     background-color: #101010;
     -webkit-box-shadow: 0px 5px 26px 0px rgba(150,150,150,0.22), 0px 20px 28px 0px rgba(0,0,0,0.30)!important;
     box-shadow: 0px 5px 26px 0px rgba(150,150,150,0.22), 0px 20px 28px 0px rgba(0,0,0,0.30)!important;
@@ -815,4 +818,16 @@ button.goog-date-picker-btn.goog-date-picker-nextMonth.cdr_dd {
 }
 ._Bxk {
     color: rgba(255, 255, 255, 0.54)!important;
+}
+.duf3x {
+    -webkit-filter: invert(0.94)!important;
+    -moz-filter: invert(0.94)!important;
+    filter: invert(0.94);
+}
+div.duf3c input[type=radio]:active {
+    border-color: #333;
+    background: #222;
+}
+div.duf3c input[type=radio] {
+    border: 1px solid #222;
 }
