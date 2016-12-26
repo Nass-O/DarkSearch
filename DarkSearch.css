@@ -120,7 +120,7 @@ input {
 }
 
 /* Links (blue) #89A2CF*/
-a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited,a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a.fl.q._KCd._tWc,.st .f .fl, div.duf3d a {
+a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited,a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b,#foot #navcnt a,a.fl.q._KCd._tWc,.st .f .fl, div.duf3d a, ._YAp {
     color: #9BAED2!important;
 }
 
@@ -619,7 +619,7 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 .mlo-c, .klitem:hover, g-fab._jAg._uqh, ._bjl {
     background: #101010!important;
 }
-._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n {
+._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n, ._NEd {
     color: rgba(255,255,255,.87)!important;
 }
 ._x2i ._baf, ._wje, ._jGl, ._mGl {
@@ -628,11 +628,14 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 ._sWe ._Vsf:first-child, ._Vsf, ._sWe ._b1j {
     border-top-color: #1d1d1d!important;
 }
-._lXc {
+._lXc, ._iul {
     border-bottom-color: #1d1d1d!important;
 }
 ._cXm {
     filter: invert(.5);
+}
+._vap {
+    border-color: #9BAED2 transparent;
 }
 
 /* Special Events (euro, world cup, olympics) */
