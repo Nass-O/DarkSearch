@@ -755,6 +755,10 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
     background: #1a1a1a!important;
     border: 1px solid rgba(55, 55, 55, 0.2)!important;
 }
+#qbdp {
+    background: #222!important;
+    border-top: 1px solid #292929!important;
+}
 .qbtbp {
     background: #141414!important;
     border-top: 1px solid #2d2d2d!important;
