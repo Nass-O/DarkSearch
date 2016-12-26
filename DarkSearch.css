@@ -843,3 +843,12 @@ textarea {
     color: #c5c5c5;
     padding: 2px!important;
 }
+
+/* New tab searchbar */
+#fkbx {
+    background-color: #222;
+    border-color: #222;
+}
+#fkbx:hover {
+    border-color: #282828;
+}
