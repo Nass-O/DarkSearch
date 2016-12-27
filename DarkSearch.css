@@ -873,13 +873,17 @@ div.duf3c input[type=radio]:active {
     border-color: #333;
     background: #222;
 }
-div.duf3c input[type=radio] {
+div.duf3c input[type=radio], .lud-asi {
     border-color: #222;
 }
-textarea {
+textarea._wGk.dsoVKqXxiTb__animated {
     background-color: #101010!important;
     color: #c5c5c5;
     padding: 2px!important;
+}
+._S9g {
+    background-color: #101010!important;
+    border-color: #1d1d1d!important;
 }
 
 /* New tab searchbar */
