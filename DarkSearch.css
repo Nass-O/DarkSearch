@@ -858,13 +858,16 @@ button.goog-date-picker-btn.goog-date-picker-nextMonth.cdr_dd {
     -webkit-box-shadow: 0 5px 26px 0 rgba(150,150,150,0.22)!important;
     box-shadow: 0 5px 26px 0 rgba(150,150,150,0.22)!important;
 }
-._dyj, ._Gxj, ._Dfm {
+._dyj, ._Gxj, ._Dfm, .lud-ohdf {
     color: rgba(255,255,255,.87)!important;
 }
 ._Bxk {
     color: rgba(255,255,255,.54)!important;
 }
-.duf3x {
+.lud-ohdt:checked~.lud-ohdf {
+    color: #fff!important;
+}
+.duf3x, .lud-ohx {
     -webkit-filter: invert(.94)!important;
     -moz-filter: invert(.94)!important;
     filter: invert(.94);
@@ -884,6 +887,13 @@ textarea._wGk.dsoVKqXxiTb__animated {
 ._S9g {
     background-color: #101010!important;
     border-color: #1d1d1d!important;
+}
+.lud-ohday {
+    background-color: #161616!important;
+}
+.lud-ohdi {
+    border-bottom-color: #1d1d1d!important;
+    background-color: #101010!important;
 }
 
 /* New tab searchbar */
