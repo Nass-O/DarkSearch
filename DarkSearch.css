@@ -748,3 +748,10 @@ input#qbfile {
     background-image: -webkit-gradient(linear,left top,left bottom,from(#626262),to(#626262));
     background-color: #626262;
 }
+
+/* Google logo (if needed) */
+/*@media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 96dpi)
+#hplogo {
+    background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+}
+*/
