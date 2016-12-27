@@ -634,8 +634,11 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 .kappbar {
     background: #1d1d1d!important;
 }
-.mlo-c, .klitem:hover, g-fab._jAg._uqh, ._bjl {
+.mlo-c, .klitem:hover, g-fab._jAg._uqh {
     background: #101010!important;
+}
+._bjl, ._Phb.rhsvw .vkc_np {
+    background: #161616!important;
 }
 ._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n, ._NEd, ._Fpi ._uii {
     color: rgba(255,255,255,.87)!important;
