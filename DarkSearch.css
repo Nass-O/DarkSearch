@@ -294,9 +294,13 @@ button.duf3sb:disabled {
 .rg_fbl,.rg_fbl:hover {
     border: 1px solid #2C2C2C!important;
 }
-.sp_cnt, .rc, .srg {
+.sp_cnt, .srg {
     background-color: #101010!important;
     outline-color: #101010!important;
+}
+.rc {
+    background-color: transparent!important;
+    outline-color: transparent!important;
 }
 /* Separators */
 #ifbd,.rgsep,.klbar,.rl_center {
