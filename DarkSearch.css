@@ -876,3 +876,10 @@ textarea {
 #fkbx:hover {
     border-color: #282828;
 }
+
+/* Google logo (if needed) */
+/*@media (-webkit-max-device-pixel-ratio: 1), (max-resolution: 96dpi)
+#hplogo {
+    background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+}
+*/
