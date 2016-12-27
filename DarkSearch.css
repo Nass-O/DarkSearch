@@ -192,26 +192,26 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
     background-image: -webkit-linear-gradient(top,#2E2E2E,#2E2E2E);
     background-image: -moz-linear-gradient(center top , #2E2E2E, #2E2E2E);
     background-color: #2E2E2E;
-    border-color: #222;
+    border-color: #2d2d2d;
     color: #ccc;
     box-shadow: 0 0 5px #0F0F0F;
 }
 
 /* Button */
 .ab_button,#hdtb-tls:hover,.ksb {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#191919));
-    background-image: -webkit-linear-gradient(top,#222,#191919);
-    background-image: -moz-linear-gradient(center top , #222, #191919);
-    background-image: -o-linear-gradient(top,#222,#191919);
-    background-color: #191919;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#222),to(#222));
+    background-image: -webkit-linear-gradient(top,#222,#222);
+    background-image: -moz-linear-gradient(center top , #222, #222);
+    background-image: -o-linear-gradient(top,#222,#222);
+    background-color: #222;
     border-color: #262626;
     color: #acacac!important;
 }
 #hdtb-msb .hdtb-tl-sel, #hdtb-msb .hdtb-tl-sel:hover {
-    background: -webkit-linear-gradient(top,#191919,#101010) !important;
+    background: -webkit-linear-gradient(top,#232323,#272727) !important;
     -webkit-box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.1)!important;
-    border: 1px solid #262626!important;
-    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.1)!important;
+    border: 1px solid #1e1e1e!important;
+    box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.2)!important;
 }
 #gb .gb_qb a.gb_wb.gb_wb {
     color: #fff!important;
@@ -219,10 +219,10 @@ a._Gs:hover,._HR a, #swml a:hover,.hdtbItm label:hover, .hdtbItm a:hover, #hdtb-
 
 /* Button Hover */
 .ab_button:hover,.ksb:hover {
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#282828),to(#222));
-    background-image: -webkit-linear-gradient(top,#282828,#222);
-    background-image: -moz-linear-gradient(center top , #282828, #222);
-    background-image: -o-linear-gradient(top,#282828,#222);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#282828),to(#282828));
+    background-image: -webkit-linear-gradient(top,#282828,#282828);
+    background-image: -moz-linear-gradient(center top , #282828, #282828);
+    background-image: -o-linear-gradient(top,#282828,#282828);
     background-color: #282828;
     border-color: #2C2C2C;
     color: #ccc;
