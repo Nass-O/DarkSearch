@@ -248,9 +248,10 @@ button.duf3sb:disabled {
 }
 
 /* Dropdown background */
-.ab_dropdown,.hdtb-mn-o, .hdtb-mn-c,.goog-menu,._-F,.gstl_50 .sbdd_a,.sbsb_b,.sbdd_b, ._vx, #fsett  {
+.ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .goog-menu, ._-F, .gstl_50 .sbdd_a, .sbdd_b, ._vx, #fsett {
     background-color: #222!important;
-    border: 1px solid rgb(38,38,38)!important;
+    border: none!important;
+    border-top: 1px solid rgb(28, 28, 28)!important;
     box-shadow: 0 2px 4px rgba(0,0,0,.2)!important;
 }
 .hdtbItm, .o2ji6GoAIDp__menu, .sc {
@@ -885,3 +886,8 @@ textarea {
     background: url(/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
 }
 */
+
+/* Additional infos on website (e.g. creation date) */
+._cwc {
+    color: #b7b7b7;
+  }
