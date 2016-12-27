@@ -737,7 +737,9 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 }
 
 /* New Search bar */
-
+.sbibod .sbico-c:hover {
+    background-color: transparent;
+}
 .sbib_a,.sbibod {
     background: #222;
 	}
