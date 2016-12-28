@@ -252,6 +252,11 @@
         border-color: #242931 !important;
     }
 
+    /* Show more results button */
+    ._kvc {
+        border-color: #262626 !important;
+    }
+
     /* Dropdown background */
     .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .goog-menu, ._-F, .gstl_50 .sbdd_a, .sbsb_b, .sbdd_b, ._vx, #fsett {
         background-color: #222 !important;
