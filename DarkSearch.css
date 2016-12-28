@@ -121,7 +121,7 @@
     }
 
     /* Links (blue) #89A2CF*/
-    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn {
+    a.iu-card-header, a.iu-card-header:hover, a.iu-card-header:visited, a.fl:link, .fl a, .flt, a.flt, .gl a:link, a.mblink, .mblink b, #foot #navcnt a, a.fl.q._KCd._tWc, .st .f .fl, div.duf3d a, ._YAp, .lr_dct_more_btn, a ._l6b {
         color: #9BAED2 !important;
     }
 
@@ -157,9 +157,13 @@
     #foot #navcnt .cur {
         color: #fff !important;
     }
+    /* Strong White links */
+    .kno-ecr-pt {
+        color: #fff!important;
+    }
 
     /* Links (white) #c5c5c5 */
-    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .kno-ecr-pt, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a {
+    .flt-date, .price, ._rl, td._xh.vk_gy._Vi, div._b5e .vk_bk, ._dDh._XDh, ._xZc, ._wD ._Xbe, ._Tsf, .hdtb-mn-hd, ._tvg, ._LJ .exp-txt-c, .mod, ._eF, .rg_bb_label, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, ._pk, a.fl, a._Gs, #hdtb .hdtb-mitem a, .ftl, #footer a, #gb#gb a.gb_P, #gb#gb span.gb_P, ._HR a, #swml a {
         color: #a3a3a3 !important;
     }
     .gb_Q span {
@@ -932,10 +936,10 @@
         background-color: #151515!important;
     }
     ._zKj {
-        background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(248,248,248,0)),color-stop(100%,rgb(21,21,21)))!important;
+        background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(0,0,0,0)),color-stop(100%,rgb(21,21,21)))!important;
     }
-    a.q.qs {
-        color: #a3a3a3 !important;
+    ._Owg {
+        background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgb(22,22,22)),color-stop(100%,rgba(0,0,0,0)))!important;
     }
     .search-tool-pad, #top_nav, .msb {
         background-color: #101010 !important;
@@ -953,26 +957,44 @@
     /* Search results containers */
     ._cy:not(:empty), .mnr-c:not(:empty) {
         background-color: #161616 !important;
-        box-shadow: 0 1px 2px rgba(80,80,80,.2)!important;
     }
     ._OXf, ._MBh, ._U7g {
         border-color: #151515!important;
     }
-    ._Zjj {
+    ._Zjj, ._Dzh, .mnr-c._Dzh, ._ESj, ._RRj {
         background-color: #161616!important;
         border-color: #151515!important;
     }
-    .related-question-pair .nmca, .related-question-pair .nmtbia {
+    .related-question-pair .nmca, .related-question-pair .nmtbia, .qs-iml, .qs-imr, .qs-ibg {
         background-color: #101010 !important;
     }
-    #brs ._ryh, ._kk, ._bMc, ._D8e {
+    ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm {
+        color: rgba(255,255,255,.87)!important;
+    }
+    #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp {
         color: rgba(255,255,255,.54)!important;
     }
     #brs a {
         color: #9BAED2 !important;
     }
-    #brs ._kk, ._kk, ._bMc {
+    #brs ._kk, ._kk, ._bMc, ._MRj {
         background-color: #1D1D1D !important;
+    }
+    #rhs .g-blk.rhsvw {
+        background-color: transparent !important;
+        box-shadow: none!important;
+    }
+    /* Mobile ETC */
+    a.q.qs, ._jgc, ._bC, ._tic, ._aD, ._IAp, ._ucl {
+        color: #A6A6A6 !important;
+    }
+    ._D7k ._B7k:last-child, ._D7k ._c8k:last-child, ._D7k ._ISm:last-child, ._D7k ._C7k, ._A7k:not(:last-child) ._B7k:last-child, ._A7k:not(:last-child) ._c8k:last-child, ._A7k:not(:last-child) ._ISm:last-child, ._A7k:not(:last-child) ._C7k {
+        border-color: #1D1D1D!important;
+    }
+    /* Round button */
+    g-fab._wxg._Axg.xcas._jAg._vqh, g-fab._wxg._Bxg.xcae._jAg._vqh {
+        background-color: #1d1d1d!important;
+        color: rgba(255,255,255,.54)!important;
     }
     /* Next button */
     ._mk, #fbtns .ksb {
