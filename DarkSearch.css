@@ -640,7 +640,7 @@
     .klitem.selected {
         border-bottom: 6px solid #BEBEBE !important;
     }
-    ._Db:active, .rllt__local-item-selected, .j1qrTmDHUhe__button:active, .rllt__action-button:active {
+    ._Db:active, .rllt__local-item-selected, .j1qrTmDHUhe__button:active, .rllt__action-button:active, .rllt__link:active {
         background-color: #0B0B0B !important;
     }
     .rllt__details, .vk_bk {
@@ -658,7 +658,7 @@
     .mlo-c, .klitem:hover, g-fab._jAg._uqh, .lr_dct_lbl_box {
         background: #101010 !important;
     }
-    ._bjl, ._Phb.rhsvw .vkc_np, #center_col .kp-blk {
+    ._bjl, ._Phb.rhsvw .vkc_np, #center_col .kp-blk, .cMjHbjVt9AZ__button:active {
         background: #161616 !important;
     }
     .lr_dct_spkr_off input[type="image"], .lr_dct_spkr_on input[type="image"] {
@@ -682,6 +682,13 @@
     }
     ._vap {
         border-color: #9BAED2 transparent;
+    }
+    #cnt.rfli .mw {
+        background-color: #151515!important;
+    }
+    #rllhd__fldhc {
+        border-bottom-color: #252525!important;
+        background-color: #151515!important;
     }
 
     /* Special Events (euro, world cup, olympics) */
