@@ -210,9 +210,9 @@
     }
     #hdtb-msb .hdtb-tl-sel, #hdtb-msb .hdtb-tl-sel:hover {
         background: -webkit-linear-gradient(top, #232323, #272727) !important;
-        -webkit-box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .1) !important;
+        -webkit-box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.1) !important;
         border: 1px solid #1e1e1e !important;
-        box-shadow: inset 0 1px 2px 0 rgba(0, 0, 0, .2) !important;
+        box-shadow: inset 0 1px 2px 0 rgba(0,0,0,.2) !important;
     }
     #gb .gb_qb a.gb_wb.gb_wb {
         color: #fff !important;
@@ -236,8 +236,8 @@
         background-image: -webkit-linear-gradient(top, #101010, #1E1E1E);
         background-image: -moz-linear-gradient(center top, #101010, #1E1E1E);
         border: 1px solid #262626;
-        -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-        box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+        -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+        box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
         color: #afafaf;
         margin: 0;
     }
@@ -251,8 +251,8 @@
     /* Dropdown background */
     .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .goog-menu, ._-F, .gstl_50 .sbdd_a, .sbsb_b, .sbdd_b, ._vx, #fsett {
         background-color: #222 !important;
-        border: 1px solid rgb(38, 38, 38) !important;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, .2) !important;
+        border: 1px solid rgb(38,38,38) !important;
+        box-shadow: 0 2px 4px rgba(0,0,0,.2) !important;
     }
     .hdtbItm, .o2ji6GoAIDp__menu, .sc {
         background-color: #222 !important;
@@ -424,7 +424,7 @@
         color: #ADADAD !important;
     }
     ._Rsi {
-        color: rgba(224, 224, 224, .87) !important;
+        color: rgba(224,224,224,.87) !important;
     }
 
     /* Calculator */
@@ -533,11 +533,11 @@
     }
     .tw-menu-btn {
         /*  opacity: 0.3!important;*/
-        color: rgba(255, 255, 255, .54) !important;
+        color: rgba(255,255,255,.54) !important;
     }
     .tw-menu-btn:hover {
         /*opacity: 1!important;*/
-        color: rgba(208, 208, 208, .87) !important;
+        color: rgba(208,208,208,.87) !important;
     }
 
     .tw-data-text, pre#tw-target-text, textarea#tw-source-text-ta {
@@ -657,10 +657,10 @@
         filter: invert(.9);
     }
     ._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n, ._NEd, ._Fpi ._uii {
-        color: rgba(255, 255, 255, .87) !important;
+        color: rgba(255,255,255,.87) !important;
     }
     ._x2i ._baf, ._wje, ._jGl, ._mGl, ._bVi {
-        color: rgba(255, 255, 255, .54) !important;
+        color: rgba(255,255,255,.54) !important;
     }
     ._sWe ._Vsf:first-child, ._Vsf, ._sWe ._b1j, ._Vxn {
         border-top-color: #1d1d1d !important;
@@ -677,23 +677,23 @@
 
     /* Special Events (euro, world cup, olympics) */
     .oly-drk-txt, .oly-card-ttl, .oly_mbt__hltd-medal-row .oly_mbt__rank {
-        color: rgb(189, 189, 189) !important;
+        color: rgb(189,189,189) !important;
     }
     .oly-ob .oly-card-ttl, .oly_bcl__padding-wrap {
         background: #1d1d1d !important;
-        border-bottom: 1px solid rgba(255, 255, 255, .16) !important;
+        border-bottom: 1px solid rgba(255,255,255,.16) !important;
     }
     .oly-lght-txt {
-        color: rgba(200, 200, 200, .54) !important;
+        color: rgba(200,200,200,.54) !important;
     }
     .oly_mbt__hltd-medal-row td, ._Dji {
         background: #1e1e1e !important;
     }
     .oly_mbt__rank {
-        color: rgba(255, 255, 255, .54) !important;
+        color: rgba(255,255,255,.54) !important;
     }
     ._cki {
-        color: rgba(169, 169, 169, .87) !important;
+        color: rgba(169,169,169,.87) !important;
     }
 
     /* Frontpage Aplications Dropdown */
@@ -745,7 +745,7 @@
 
     /* Privacy Policy */
     ._gIg, ._WJg {
-        color: rgba(255, 255, 255, .87) !important;
+        color: rgba(255,255,255,.87) !important;
     }
     ._vGg {
         background: #101010 !important;
@@ -773,7 +773,7 @@
         background: #171717 !important;
     }
     .s2tb.spch {
-        background: rgba(0, 0, 0, .7) !important;
+        background: rgba(0,0,0,.7) !important;
     }
     .s2fp .button, .s2tb .button {
         background-color: #171717 !important;
@@ -786,7 +786,7 @@
     /* search by image */
     #qbp {
         background: #1a1a1a !important;
-        border: 1px solid rgba(55, 55, 55, .2) !important;
+        border: 1px solid rgba(55,55,55,.2) !important;
     }
     #qbdp {
         background: #222 !important;
@@ -830,7 +830,7 @@
     .cdr_dlg, .exydlg {
         background: #101010 !important;
         border-color: #222 !important;
-        box-shadow: 0 4px 16px rgba(150, 150, 150, .2) !important;
+        box-shadow: 0 4px 16px rgba(100,100,100,.2) !important;
     }
     .cdr_bg, .exybg {
         background: #000 !important;
@@ -859,14 +859,15 @@
     /* Share & Feedback popup */
     ._m8j, .fAwjXaCTMo5__content, div.duf3d {
         background-color: #101010;
-        -webkit-box-shadow: 0 5px 26px 0 rgba(150, 150, 150, 0.22) !important;
-        box-shadow: 0 5px 26px 0 rgba(150, 150, 150, 0.22) !important;
+        -webkit-box-shadow: 0 5px 26px 0 rgba(100,100,100,.22) !important;
+        box-shadow: 0 5px 26px 0 rgba(100,100,100,.22) !important;
+        border-color: #1d1d1d!important;
     }
     ._dyj, ._Gxj, ._Dfm, .lud-ohdf {
-        color: rgba(255, 255, 255, .87) !important;
+        color: rgba(255,255,255,.87) !important;
     }
     ._Bxk {
-        color: rgba(255, 255, 255, .54) !important;
+        color: rgba(255,255,255,.54) !important;
     }
     .lud-ohdt:checked ~ .lud-ohdf {
         color: #fff !important;
@@ -880,7 +881,7 @@
         border-color: #333;
         background: #222;
     }
-    div.duf3c input[type=radio], .lud-asi {
+    div.duf3c input[type=radio], .lud-asi, .duf3bs {
         border-color: #222;
     }
     textarea._wGk.dsoVKqXxiTb__animated {
@@ -920,4 +921,80 @@
     ._cwc {
         color: #b7b7b7;
     }
+
+    /* Mobile */
+    /* Search bar */
+    .msfi {
+        background-color: #222 !important;
+        border-color: #303030 !important;
+    }
+    #hdtb-more, #hdtb-msb .hdtb-imb, #hdtb-msb .hdtb-imb.hdtb-msel, #hdtb-tls, #msc {
+        background-color: #151515!important;
+    }
+    ._zKj {
+        background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(248,248,248,0)),color-stop(100%,rgb(21,21,21)))!important;
+    }
+    a.q.qs {
+        color: #a3a3a3 !important;
+    }
+    .search-tool-pad, #top_nav, .msb {
+        background-color: #101010 !important;
+    }
+    .srp #tsf {
+        border-bottom-color: rgba(150,150,150,.12);
+    }
+    /* Search suggestions */
+    .sbmsq_a {
+        background-color: #1D1D1D!important;
+    }
+    .sbsb_e {
+        background-color: #333!important;
+    }
+    /* Search results containers */
+    ._cy:not(:empty), .mnr-c:not(:empty) {
+        background-color: #161616 !important;
+        box-shadow: 0 1px 2px rgba(80,80,80,.2)!important;
+    }
+    ._OXf, ._MBh, ._U7g {
+        border-color: #151515!important;
+    }
+    ._Zjj {
+        background-color: #161616!important;
+        border-color: #151515!important;
+    }
+    .related-question-pair .nmca, .related-question-pair .nmtbia {
+        background-color: #101010 !important;
+    }
+    #brs ._ryh, ._kk, ._bMc, ._D8e {
+        color: rgba(255,255,255,.54)!important;
+    }
+    #brs a {
+        color: #9BAED2 !important;
+    }
+    #brs ._kk, ._kk, ._bMc {
+        background-color: #1D1D1D !important;
+    }
+    /* Next button */
+    ._mk, #fbtns .ksb {
+        background-color: #222!important;
+    }
+    /* Promo */
+    .hww53CMqxtL__mobile-promo {
+        background-color: #101010 !important;
+        box-shadow: 4px 4px 12px rgba(100,100,100,.4)!important;
+    }
+    /* Footer */
+    ._GR #swml {
+        border-color: #1D1D1D!important;
+    }
+    ._SAi {
+        border-color: #252525!important;
+    }
+    .fbar {
+        background: #1d1d1d !important;
+    }
+    #swml_addr, #fuserm span[style*="color:#333"] {
+        color: #C5C5C5!important;
+    }
+
 }
