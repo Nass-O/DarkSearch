@@ -977,20 +977,20 @@
         background-color: #161616!important;
         border-color: #151515!important;
     }
-    .related-question-pair .nmca, .related-question-pair .nmtbia, .qs-iml, .qs-imr, .qs-ibg, ._MRj {
-        background-color: #101010 !important;
-    }
-    ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm, ._ywh {
+    ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm, ._ywh, ._uRh {
         color: rgba(255,255,255,.87)!important;
     }
-    #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp, ._zwh {
+    #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp, ._zwh, ._vRh, ._LMk {
         color: rgba(255,255,255,.54)!important;
     }
     #brs a {
         color: #9BAED2 !important;
     }
-    #brs ._kk, ._kk, ._bMc {
+    #brs ._kk, ._kk, ._bMc, .mnr-c ._MRj {
         background-color: #1D1D1D !important;
+    }
+    .related-question-pair .nmca, .related-question-pair .nmtbia, .qs-iml, .qs-imr, .qs-ibg, .normal-header ._kk, .g._cy {
+        background-color: #101010 !important;
     }
     #rhs .g-blk.rhsvw, .g.mnr-c.g-blk {
         background-color: transparent !important;
@@ -1008,8 +1008,8 @@
         background-color: #1d1d1d!important;
         color: rgba(255,255,255,.54)!important;
     }
-    /* Next button */
-    ._mk, #fbtns .ksb {
+    /* Next & install button */
+    ._mk, #fbtns .ksb, ._Aji {
         background-color: #222!important;
     }
     /* Promo */
