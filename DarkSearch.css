@@ -159,7 +159,7 @@
     }
     /* Strong White links */
     .kno-ecr-pt {
-        color: #fff!important;
+        color: #eee!important;
     }
 
     /* Links (white) #c5c5c5 */
@@ -416,7 +416,7 @@
     }
 
     /* Sponsored */
-    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container {
+    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container, ._HSb {
         border-color:  #1D1D1D !important;
     }
     ._pbb, a._pbb, ._oc, ._oc .muse-wta, ._oc .richlist-wta, ._oc ._Sb {
@@ -433,8 +433,8 @@
         color: #ADADAD !important;
     }
     ._Rsi {
-        color: rgba(224,224,224,.87) !important;
-
+        color: rgba(224, 224, 224, .87) !important;
+    }
     ._jug {
         filter: invert(1)!important;
     }
@@ -619,8 +619,11 @@
     .hdtb-ab-o #botabar {
         border-top: 1px solid #2A2A2A !important;
     }
-    .flyr-o, .flyr-w, g-inner-card, ._Db:hover {
+    .flyr-o, .flyr-w, ._Db:hover {
         background-color: #1d1d1d !important;
+    }
+    g-inner-card {
+        background-color: transparent!important;
     }
     .prpe:hover {
         background: #000 !important;
@@ -877,7 +880,7 @@
 
     /* Share & Feedback popup */
     ._m8j, .fAwjXaCTMo5__content, div.duf3d {
-        background-color: #101010;
+        background-color: #101010!important;
         -webkit-box-shadow: 0 5px 26px 0 rgba(100,100,100,.22) !important;
         box-shadow: 0 5px 26px 0 rgba(100,100,100,.22) !important;
         border-color: #1d1d1d!important;
@@ -1000,7 +1003,7 @@
         box-shadow: none!important;
     }
     /* Mobile ETC */
-    a.q.qs, ._jgc, ._bC, ._tic, ._aD, ._IAp, ._ucl {
+    a.q.qs, ._jgc, ._bC, ._tic, ._aD, ._IAp, ._ucl, a ._n4d {
         color: #A6A6A6 !important;
     }
     ._D7k ._B7k:last-child, ._D7k ._c8k:last-child, ._D7k ._ISm:last-child, ._D7k ._C7k, ._A7k:not(:last-child) ._B7k:last-child, ._A7k:not(:last-child) ._c8k:last-child, ._A7k:not(:last-child) ._ISm:last-child, ._A7k:not(:last-child) ._C7k {
