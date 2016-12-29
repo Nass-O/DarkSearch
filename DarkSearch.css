@@ -416,10 +416,10 @@
     }
 
     /* Sponsored */
-    .flt-actionblock {
-        border: 1px solid #222 !important;
+    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container {
+        border-color:  #1D1D1D !important;
     }
-    ._pbb, a._pbb {
+    ._pbb, a._pbb, ._oc, ._oc .muse-wta, ._oc .richlist-wta, ._oc ._Sb {
         background-color: #161616 !important;
     }
     ._Z9b {
@@ -434,6 +434,9 @@
     }
     ._Rsi {
         color: rgba(224,224,224,.87) !important;
+
+    ._jug {
+        filter: invert(1)!important;
     }
 
     /* Calculator */
