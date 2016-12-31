@@ -893,14 +893,6 @@ textarea {
   }
 
 /* Your places results box */
-.gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-title {
-    color: #c5c5c5;
-}
-
-.gws-plugins-local-jslayout-personal_places_result_group__personal-place-tile-label * {
-    color: #c5c5c5;
-}
-
-.gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-footer {
+.gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-title, .gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-footer, .gws-plugins-local-jslayout-personal_places_result_group__personal-place-tile-label *  {
     color: #c5c5c5;
 }
