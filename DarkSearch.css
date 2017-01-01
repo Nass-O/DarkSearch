@@ -552,16 +552,6 @@ option {
 .tw-bilingual-entries .tw-bilingual-marked, .tw-bilingual-entries .tw-bilingual-marked * {
     color: rosybrown!important;
 }
-/* Select */
-.lr_dct_trns_sel {
-    background-color: #101010!important;
-    border-color:#1d1d1d!important;
-}
-.lr_dct_trns_sel:hover {
-    background-color: #121212!important;
-    border-color: #222!important;
-}
-
 /* Weather */
 .wob_ds {
     background-color: #1D1D1D!important;
@@ -645,15 +635,11 @@ td[style="border-right: 1px solid #1d1d1d;width:50%;"], td[style="border-right:1
 .kappbar {
     background: #1d1d1d!important;
 }
-.mlo-c, .klitem:hover, g-fab._jAg._uqh, .lr_dct_lbl_box {
+.mlo-c, .klitem:hover, g-fab._jAg._uqh {
     background: #101010!important;
 }
-._bjl, ._Phb.rhsvw .vkc_np, #center_col .kp-blk {
+._bjl, ._Phb.rhsvw .vkc_np {
     background: #161616!important;
-}
-.lr_dct_spkr_off input[type="image"], .lr_dct_spkr_on input[type="image"] {
-    background-color: #fff!important;
-    filter: invert(.9);
 }
 ._nPe, ._RMe, ._OFe, ._PFe, ._QFe, ._RFe, ._gah, ._L9g, ._Usf, ._x2i ._baf b, ._mgh, ._cke, ._kGl, ._oGl, ._N2n, ._NEd, ._Fpi ._uii {
     color: rgba(255,255,255,.87)!important;
