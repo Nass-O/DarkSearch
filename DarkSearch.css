@@ -891,3 +891,8 @@ textarea {
 ._cwc {
     color: #b7b7b7;
   }
+
+/* Your places results box */
+.gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-title, .gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-footer, .gws-plugins-local-jslayout-personal_places_result_group__personal-place-tile-label *  {
+    color: #c5c5c5;
+}
