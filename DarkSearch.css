@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google
      * Author:  Nass O
-     * Version: v2.1.3
+     * Version: v2.1.4
      */
 
     /* Background */
@@ -258,7 +258,7 @@
     }
 
     /* Dropdown background */
-    .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .goog-menu, ._-F, .gstl_50 .sbdd_a, .sbsb_b, .sbdd_b, ._vx, #fsett {
+    .ab_dropdown, .hdtb-mn-o, .hdtb-mn-c, .goog-menu, ._-F, .gstl_50 .sbdd_a, ._vx, #fsett {
         background-color: #222 !important;
         border: 1px solid rgb(38,38,38) !important;
         box-shadow: 0 2px 4px rgba(0,0,0,.2) !important;
@@ -286,7 +286,7 @@
         background: #222;
     }
     .sbdd_b {
-        border: 1px solid #262626;
+        border: 1px solid #222;
         border-top-color: #2E2E2E;
     }
     .sbsb_d {
@@ -524,7 +524,7 @@
 
     /* Translator */
     .tw-lang-selector-wrapper {
-        border: 1px solid #1d1d1d !important;
+        border: none!important;
     }
     .tw-lang-selector {
         color: #8E8E8E !important;
@@ -541,7 +541,7 @@
     }
     .tw-menu-btn:hover .tw-menu-btn-image:first-child {
         background-color: #1d1d1d !important;
-        border-color: #1d1d1d !important;
+        border-color: #202020 !important;
     }
     .tw-menu-btn {
         /*  opacity: 0.3!important;*/
@@ -986,14 +986,14 @@
     ._NRl, ._Fij, ._Fij a, ._jyj, ._Xbe, ._M3k, ._Iqg, ._P8d, ._xkm, ._ywh, ._uRh {
         color: rgba(255,255,255,.87)!important;
     }
-    #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp, ._zwh, ._vRh, ._LMk {
+    ._OPd._Cnk a, #brs ._ryh, ._kk, ._bMc, ._D8e, ._Obi, ._Obi a, ._xdb, ._xdb a.fl, a.duf3, ._hap, ._pLp, ._Mnc, ._Jse, span._Gxg, ._Akh, ._wkm, ._jmp, ._zwh, ._vRh, ._LMk {
         color: rgba(255,255,255,.54)!important;
     }
     #brs a {
         color: #9BAED2 !important;
     }
     #brs ._kk, ._kk, ._bMc, .mnr-c ._MRj {
-        background-color: #1D1D1D !important;
+        background-color: transparent !important;
     }
     .related-question-pair .nmca, .related-question-pair .nmtbia, .qs-iml, .qs-imr, .qs-ibg, .normal-header ._kk, .g._cy {
         background-color: #101010 !important;
