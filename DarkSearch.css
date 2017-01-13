@@ -896,3 +896,9 @@ textarea {
 .gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-title, .gws-plugins-local-jslayout-personal_places_result_group__personal-places-card-footer, .gws-plugins-local-jslayout-personal_places_result_group__personal-place-tile-label *  {
     color: #c5c5c5;
 }
+
+/* Fix for header text and button text on exact size image search tool */
+
+#isz_ex > div > div > div.exydlg > div.exyttl {
+    color: #a3a3a3!important;
+}
