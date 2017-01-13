@@ -2,7 +2,7 @@
     /*
      * Name:    DarkSearch for Google
      * Author:  Nass O
-     * Version: v2.1.5
+     * Version: v2.1.6
      */
 
     /* Background */
@@ -77,11 +77,14 @@
     input {
         background-color: #222;
     }
-    /* Auto completion */
+    
+    /* Auto completion 
     input#lst-ib.gsfi {
         background: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) rgba(34, 34, 34, 0.74)!important;
 
     }
+    */
+    
     /* Header */
     .sfbgg {
         background-color: #151515 !important;
@@ -303,7 +306,7 @@
         box-shadow: 0 0 5px #0B0B0B !important;
     }
     ._OKe, .rl_item {
-        background: #161616 !important;
+        background: #1c1c1c !important;
     }
     .rg_fbl, .rg_fbl:hover {
         border: 1px solid #2C2C2C !important;
@@ -1047,4 +1050,14 @@
 
 #isz_ex > div > div > div.exydlg > div.exyttl {
     color: #a3a3a3!important;
+}
+
+/* Google cards */
+g-card-section {
+    background: #1c1c1c;
+}
+
+/* Button hover in search bar fix */
+.sbibod button:hover {
+    background: #222222!important;
 }
