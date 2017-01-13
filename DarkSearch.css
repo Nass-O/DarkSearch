@@ -1044,8 +1044,6 @@
         color: #C5C5C5!important;
     }
 
-}
-
 /* Fix for header text and button text on exact size image search tool */
 
 #isz_ex > div > div > div.exydlg > div.exyttl {
@@ -1060,4 +1058,6 @@ g-card-section {
 /* Button hover in search bar fix */
 .sbibod button:hover {
     background: #222222!important;
+}
+
 }
