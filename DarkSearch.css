@@ -1042,3 +1042,9 @@
     }
 
 }
+
+/* Fix for header text and button text on exact size image search tool */
+
+#isz_ex > div > div > div.exydlg > div.exyttl {
+    color: #a3a3a3!important;
+}
