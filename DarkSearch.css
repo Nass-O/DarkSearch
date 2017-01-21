@@ -786,15 +786,15 @@
         background-color: transparent;
     }
     .sbib_a, .sbibod {
-        background: #222;
+        background: #222 !important;
     }
     .sbib_a:hover, .sbibod:hover {
-        background: #222;
+        background: #222 !important;
     }
 
     /* New dropdown */
     .sbsb_a {
-        background: #222;
+        background: #222 !important;
     }
 
     /* Voice search */
