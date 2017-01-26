@@ -751,6 +751,21 @@
         border-color: #212121 !important;
     }
 
+    /* Google Account Dropdown */
+    .gb_ha, #gb a.gb_Ha.gb_Ha {
+        color: #c5c5c5;
+    }
+    #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
+        color: #fff!important;
+    }
+    .gb_yb {
+        background-color: #1d1d1d;
+    }
+    .gb_Ha { /*Buttons: Add account&Logout*/
+        background: #222;
+        border-color: #222;
+    }
+
     /* Privacy Policy */
     ._gIg, ._WJg {
         color: rgba(255,255,255,.87) !important;
