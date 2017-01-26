@@ -757,14 +757,12 @@
         filter: invert(1) brightness(.9) contrast(.87);
     }
 
-
-
     /* Google Account Dropdown */
     .gb_ha, #gb a.gb_Ha.gb_Ha {
-        color: #c5c5c5;
+        color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
-        color: #fff!important;
+        color: #fff !important;
     }
     .gb_yb {
         background-color: #1d1d1d;
