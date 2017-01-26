@@ -741,6 +741,9 @@
     #gb#gb a.gb_O {
         color: #c5c5c5;
     }
+    .gb_fa .gb_b {
+        filter: invert(.7);
+    }
 
     /* Google Alerts Dropdown */
     .gb_sc .gb_kb {
@@ -750,6 +753,11 @@
         background: #212121 !important;
         border-color: #212121 !important;
     }
+    .gb_sc .gb_b {
+        filter: invert(1) brightness(.9) contrast(.87);
+    }
+
+
 
     /* Google Account Dropdown */
     .gb_ha, #gb a.gb_Ha.gb_Ha {
