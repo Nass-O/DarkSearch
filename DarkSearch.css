@@ -726,33 +726,17 @@
     }
 
     /* Frontpage Aplications Dropdown */
-    .gb_jb {
-        border-bottom-color: #131313;
-    }
-    .gb_ga, .gb_ja, .gb_Z:hover .gb_4 {
-        background: #212121;
-    }
-    .gb_Z:hover:not(.gb_0) a {
-        border-color: #212121;
-    }
-    .gb_ka {
-        background: #212121;
+    .gb_ka, .gb_ha, .gb_Z:hover .gb_4 {
+        background-color: #212121;
     }
     .gb_la {
-        background-color: #131313;
-        border-bottom: 1px solid #212121;
-    }
-    .gb_ma {
-        border-color: #131313;
-    }
-    .gb_ga {
-        border-color: #343434;
+        background-color: #1d1d1d;
     }
     .gb_kb {
-        border-bottom-color: #343434;
+        border-bottom-color: #212121;
     }
-    .gb_Cb:hover {
-        background: #222;
+    .gb_Z:hover:not(.gb_0) a, .gb_ma {
+        border-color: #333;
     }
     .gb_Bb, .gb_xb {
         background: #1C1C1C;
@@ -764,10 +748,6 @@
     }
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
-    }
-    .gb_Fa {
-        background: #1c1c1c;
-        border: 1px solid #343434;
     }
 
     /* Google Alerts Dropdown */
