@@ -743,12 +743,12 @@
     }
 
     /* Google Alerts Dropdown */
-    .gb_rc .gb_jb {
-        border-bottom-color: #131313 !important;
+    .gb_sc .gb_kb {
+        border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_yc {
-        background: #131313 !important;
-        border-color: #252525 !important;
+    #gbsfw.gb_zc {
+        background: #212121 !important;
+        border-color: #212121 !important;
     }
 
     /* Privacy Policy */
