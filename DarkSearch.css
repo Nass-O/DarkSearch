@@ -749,14 +749,37 @@
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
     }
+    .gb_fa .gb_b {
+        filter: invert(.7);
+    }
 
     /* Google Alerts Dropdown */
-    .gb_rc .gb_jb {
-        border-bottom-color: #131313 !important;
+    .gb_sc .gb_kb {
+        border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_yc {
-        background: #131313 !important;
-        border-color: #252525 !important;
+    #gbsfw.gb_zc {
+        background: #212121 !important;
+        border-color: #212121 !important;
+    }
+    .gb_sc .gb_b {
+        filter: invert(1) brightness(.9) contrast(.87);
+    }
+
+
+
+    /* Google Account Dropdown */
+    .gb_ha, #gb a.gb_Ha.gb_Ha {
+        color: #c5c5c5;
+    }
+    #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
+        color: #fff!important;
+    }
+    .gb_yb {
+        background-color: #1d1d1d;
+    }
+    .gb_Ha { /*Buttons: Add account&Logout*/
+        background: #222;
+        border-color: #222;
     }
 
     /* Privacy Policy */
