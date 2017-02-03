@@ -726,50 +726,59 @@
     }
 
     /* Frontpage Aplications Dropdown */
-    .gb_ka, .gb_ha, .gb_Z:hover .gb_4 {
-        background-color: #212121;
+    .gb_jb {
+        border-bottom-color: #131313;
+    }
+    .gb_ga, .gb_ja, .gb_Z:hover .gb_4 {
+        background: #212121;
+    }
+    .gb_b {
+        -webkit-filter: invert(.9) !important;
+        -moz-filter: invert(.9) !important;
+        filter: invert(.9) !important;
+    }
+    .gb_Z:hover:not(.gb_0) a {
+        border-color: #212121;
+    }
+    .gb_ka {
+        background: #212121;
     }
     .gb_la {
-        background-color: #1d1d1d;
+        background-color: #131313;
+        border-bottom: 1px solid #212121;
+    }
+    .gb_ma {
+        border-color: #131313;
+    }
+    .gb_ga {
+        border-color: #343434;
     }
     .gb_kb {
-        border-bottom-color: #212121;
+        border-bottom-color: #343434;
     }
-    .gb_Z:hover:not(.gb_0) a, .gb_ma {
-        border-color: #333;
+    .gb_Cb:hover {
+        background: #222;
     }
-    #gb#gb a.gb_O {
+    .gb_Bb, .gb_xb {
+        background: #1C1C1C;
+        border-top: 1px solid #555;
+        border-top-color: #343434;
+    }
+    #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
     }
-    .gb_fa .gb_b {
-        filter: invert(.7);
+    .gb_Fa {
+        background: #1c1c1c;
+        border: 1px solid #343434;
     }
 
     /* Google Alerts Dropdown */
-    .gb_sc .gb_kb {
-        border-bottom-color: #212121 !important;
+    .gb_rc .gb_jb {
+        border-bottom-color: #131313 !important;
     }
-    #gbsfw.gb_zc {
-        background: #212121 !important;
-        border-color: #212121 !important;
-    }
-    .gb_sc .gb_b {
-        filter: invert(1) brightness(.9) contrast(.87);
-    }
-
-    /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha {
-        color: #c5c5c5 !important;
-    }
-    #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
-        color: #fff !important;
-    }
-    .gb_yb {
-        background-color: #1d1d1d;
-    }
-    .gb_Ha { /*Buttons: Add account&Logout*/
-        background: #222;
-        border-color: #222;
+    #gbsfw.gb_yc {
+        background: #131313 !important;
+        border-color: #252525 !important;
     }
 
     /* Privacy Policy */
