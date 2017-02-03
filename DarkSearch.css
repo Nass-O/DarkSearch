@@ -753,7 +753,10 @@
     .gb_Bb, .gb_xb {
         background: #1C1C1C;
         border-top: 1px solid #555;
-        border-top-color: #343434;
+        border-color: #343434;
+    }
+    .gb_xb:active {
+        background: #343434;
     }
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
