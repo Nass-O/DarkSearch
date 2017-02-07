@@ -730,7 +730,12 @@
         border-bottom-color: #131313;
     }
     .gb_ga, .gb_ja, .gb_Z:hover .gb_4 {
-        background: #131313;
+        background: #212121;
+    }
+    .gb_b {
+        -webkit-filter: invert(.9) !important;
+        -moz-filter: invert(.9) !important;
+        filter: invert(.9) !important;
     }
     .gb_Z:hover:not(.gb_0) a {
         border-color: #212121;
@@ -739,7 +744,11 @@
         background: #212121;
     }
     .gb_la {
+        background-color: #131313;
         border-bottom: 1px solid #212121;
+    }
+    .gb_ma {
+        border-color: #131313;
     }
     .gb_ga {
         border-color: #343434;
