@@ -1058,6 +1058,19 @@ g-card-section {
     background: #1c1c1c;
 }
 
+/* People also ask */
+._qgo {
+    background: #1c1c1c !important;
+    border-top-color: #303030 !important;
+}
+
+/* Animated loading icon */
+g-loading-icon img {
+    -webkit-filter: grayscale(.6) !important;
+    -moz-filter: grayscale(.6) !important;
+    filter: grayscale(.6) !important;
+}
+
 /* Button hover in search bar fix */
 .sbibod button:hover {
     background: #222222!important;
