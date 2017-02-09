@@ -77,14 +77,14 @@
     input {
         background-color: #222;
     }
-    
-    /* Auto completion 
+
+    /* Auto completion
     input#lst-ib.gsfi {
         background: url(data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D) rgba(34, 34, 34, 0.74)!important;
 
     }
     */
-    
+
     /* Header */
     .sfbgg {
         background-color: #151515 !important;
@@ -731,11 +731,6 @@
     }
     .gb_ga, .gb_ja, .gb_Z:hover .gb_4 {
         background: #212121;
-    }
-    .gb_b {
-        -webkit-filter: invert(.9) !important;
-        -moz-filter: invert(.9) !important;
-        filter: invert(.9) !important;
     }
     .gb_Z:hover:not(.gb_0) a {
         border-color: #212121;
