@@ -11,7 +11,7 @@
         color: #c5c5c5;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, .gb_Qb, ._kac, #qbi, .ab_icon, .gb_Nb, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, .gb_Qb, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
         -webkit-filter: invert(1) grayscale(1) !important;
         -moz-filter: invert(1) grayscale(1) !important;
         filter: invert(1) grayscale(1) !important;
@@ -754,25 +754,23 @@
     }
 
     /* Google Alerts Dropdown */
-    .gb_sc .gb_kb {
+    .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_zc {
+    #gbsfw.gb_Dc {
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_sc .gb_b {
+    .gb_Ac.gb_Bc {
         filter: invert(1) brightness(.9) contrast(.87);
     }
 
-
-
     /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha {
-        color: #c5c5c5;
+    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob {
+        color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
-        color: #fff!important;
+        color: #fff !important;
     }
     .gb_yb {
         background-color: #1d1d1d;
@@ -780,6 +778,13 @@
     .gb_Ha { /*Buttons: Add account&Logout*/
         background: #222;
         border-color: #222;
+    }
+    .gb_Cb { /* multiLogin listing */
+        background: #212121;
+        border-top-color: #333;
+    }
+    .gb_Db:hover { /* multiLogin listing on hover */
+        background: #1d1d1d;
     }
 
     /* Privacy Policy */
@@ -1054,33 +1059,54 @@
         color: #C5C5C5!important;
     }
 
-/* Fix for header text and button text on exact size image search tool */
+    /* Fix for header text and button text on exact size image search tool */
 
-#isz_ex > div > div > div.exydlg > div.exyttl {
-    color: #a3a3a3!important;
+    #isz_ex > div > div > div.exydlg > div.exyttl {
+        color: #a3a3a3!important;
+    }
+
+    /* Google cards */
+    g-card-section {
+        background: #1c1c1c;
+    }
+
+    /* People also ask */
+    ._qgo {
+        background: #1c1c1c !important;
+        border-top-color: #303030 !important;
+    }
+
+    /* Animated loading icon */
+    g-loading-icon img {
+        -webkit-filter: grayscale(.6) !important;
+        -moz-filter: grayscale(.6) !important;
+        filter: grayscale(.6) !important;
+    }
+
+    /* Button hover in search bar fix */
+    .sbibod button:hover {
+        background: #222!important;
+    }
+
 }
-
-/* Google cards */
-g-card-section {
-    background: #1c1c1c;
-}
-
-/* People also ask */
-._qgo {
-    background: #1c1c1c !important;
-    border-top-color: #303030 !important;
-}
-
-/* Animated loading icon */
-g-loading-icon img {
-    -webkit-filter: grayscale(.6) !important;
-    -moz-filter: grayscale(.6) !important;
-    filter: grayscale(.6) !important;
-}
-
-/* Button hover in search bar fix */
-.sbibod button:hover {
-    background: #222222!important;
-}
-
+@-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
+    /* Google Alerts Dropdown iframe */
+    .aac, .Rzc, .WdjWF, .WpuQke {
+        background-color: #212121;
+    }
+    .vKFgJc, .Ygb, .bxpCne, .tubEcf {
+        filter: invert(1);
+    }
+    .l4a, .f4a, .f4a.tta {
+        background-color: #101010;
+    }
+    .Jub, .Hub, .nYXukb {
+        color: #c5c5c5;
+    }
+    .MNn0h, .MNn0h:hover {
+        background: #1d1d1d;
+    }
+    .MNn0h:hover .YGETNc, .MNn0h.RATVS .YGETNc, .y9fV .YGETNc {
+        color: #868686;
+    }
 }
