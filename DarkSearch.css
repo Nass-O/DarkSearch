@@ -1101,6 +1101,9 @@
     .iWO9fc .mUbCce svg, .yxaWLe svg { /*icons*/
         fill: rgba(255,255,255,.54);
     }
+    .iWO9fc .mUbCce:hover svg, .yxaWLe:hover svg { /*icons:hover*/
+        fill: rgba(255,255,255,.87);
+    }
     .XSVuue { /*logo Google*/
         fill: rgba(255,255,255,.26);
     }
