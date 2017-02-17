@@ -1089,6 +1089,27 @@
     }
 
 }
+@-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
+    /* Google Alerts Dropdown iframe */
+    .aac, .Rzc, .WdjWF, .WpuQke {
+        background-color: #212121;
+    }
+    .vKFgJc, .Ygb, .bxpCne, .tubEcf {
+        filter: invert(1);
+    }
+    .l4a, .f4a, .f4a.tta {
+        background-color: #101010;
+    }
+    .Jub, .Hub, .nYXukb {
+        color: #c5c5c5;
+    }
+    .MNn0h, .MNn0h:hover {
+        background: #1d1d1d;
+    }
+    .MNn0h:hover .YGETNc, .MNn0h.RATVS .YGETNc, .y9fV .YGETNc {
+        color: #868686;
+    }
+}
 @-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
     /* Google Notifications Dropdown iframe */
 
