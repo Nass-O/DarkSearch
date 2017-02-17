@@ -753,7 +753,7 @@
         filter: invert(.7);
     }
 
-    /* Google Alerts Dropdown */
+    /* Google Notifications Dropdown */
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
@@ -1089,24 +1089,28 @@
     }
 
 }
-@-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
-    /* Google Alerts Dropdown iframe */
-    .aac, .Rzc, .WdjWF, .WpuQke {
+@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
+    /* Google Notifications Dropdown iframe */
+
+    .gV6pJf { /*dropdown background*/
         background-color: #212121;
     }
-    .vKFgJc, .Ygb, .bxpCne, .tubEcf {
-        filter: invert(1);
+    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb { /*notification background*/
+        background: #151515;
     }
-    .l4a, .f4a, .f4a.tta {
-        background-color: #101010;
+    .iWO9fc .mUbCce svg, .yxaWLe svg { /*icons*/
+        fill: rgba(255,255,255,.54);
     }
-    .Jub, .Hub, .nYXukb {
-        color: #c5c5c5;
+    .XSVuue { /*logo Google*/
+        fill: rgba(255,255,255,.26);
     }
-    .MNn0h, .MNn0h:hover {
-        background: #1d1d1d;
+    .v7k2xf, .v7k2xf, .gMG7Fd, .wh73ab { /*text*/
+        color: rgba(255,255,255,.87);
     }
-    .MNn0h:hover .YGETNc, .MNn0h.RATVS .YGETNc, .y9fV .YGETNc {
-        color: #868686;
+    .OlDqke, .Vz68Kb { /*subtext*/
+        color: rgba(255,255,255,.54);
+    }
+    .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
+        background-color: #1d1d1d;
     }
 }
