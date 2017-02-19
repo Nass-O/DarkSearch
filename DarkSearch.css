@@ -11,7 +11,7 @@
         color: #c5c5c5;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, .gb_Qb, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
         -webkit-filter: invert(1) grayscale(1) !important;
         -moz-filter: invert(1) grayscale(1) !important;
         filter: invert(1) grayscale(1) !important;
@@ -761,7 +761,7 @@
     }
 
     /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob {
+    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob, .gb_Rb {
         color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
@@ -774,11 +774,11 @@
         background: #222;
         border-color: #222;
     }
-    .gb_Cb { /* multiLogin listing */
+    .gb_Cb, .gb_Eb { /* multiLogin listing */
         background: #212121;
         border-top-color: #333;
     }
-    .gb_Db:hover { /* multiLogin listing on hover */
+    .gb_Db:hover, .gb_Hb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
     }
 
