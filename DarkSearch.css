@@ -522,10 +522,10 @@
     }
 
     /* Unit converter */
-    ._Ohf {
-        background-color: #101010 !important;
+    ._Ohf, .ccw_unit_selector, .ccw_selector_bg {
+        background: #101010 !important;
     }
-    ._Ohf, ._eif {
+    ._Ohf, ._eif, .ccw_data, .ccw_unit_selector_cnt {
         border-color: #1d1d1d !important;
     }
 
