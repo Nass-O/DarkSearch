@@ -423,7 +423,7 @@
     }
 
     /* Sponsored */
-    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container, ._HSb {
+    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container, ._HSb, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs {
         border-color:  #1D1D1D !important;
     }
     ._pbb, a._pbb, ._oc, ._oc .muse-wta, ._oc .richlist-wta, ._oc ._Sb {
