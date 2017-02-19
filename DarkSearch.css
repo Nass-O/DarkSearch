@@ -26,7 +26,7 @@
         -moz-filter: grayscale(.6) !important;
         filter: grayscale(.6) !important;
     }
-    ._n0b, .gb_Xb, ._MNk._wtf svg {
+    ._n0b, ._MNk._wtf svg {
         -webkit-filter: invert(.9) !important;
         -moz-filter: invert(.9) !important;
         filter: invert(.9) !important;
@@ -733,15 +733,10 @@
         background-color: #1d1d1d;
     }
     .gb_kb {
-        border-bottom-color: #212121;
+        border-bottom-color: #212121!important;
     }
     .gb_Z:hover:not(.gb_0) a, .gb_ma {
         border-color: #333;
-    }
-    .gb_Bb, .gb_xb {
-        background: #1C1C1C;
-        border-top: 1px solid #555;
-        border-color: #343434;
     }
     .gb_xb:active {
         background: #343434;
@@ -757,11 +752,11 @@
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_Dc {
+    #gbsfw.gb_Jc {
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_Ac.gb_Bc {
+    .gb_Ac.gb_Bc, .gb_Fc.gb_Hc {
         filter: invert(1) brightness(.9) contrast(.87);
     }
 
@@ -772,8 +767,8 @@
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
         color: #fff !important;
     }
-    .gb_yb {
-        background-color: #1d1d1d;
+    .gb_zb {
+        background-color: #1a1a1a;
     }
     .gb_Ha { /*Buttons: Add account&Logout*/
         background: #222;
@@ -1097,10 +1092,16 @@
     .vKFgJc, .Ygb, .bxpCne, .tubEcf {
         filter: invert(1);
     }
-    .l4a, .f4a, .f4a.tta {
+    .l4a, .f4a, .f4a.tta, .Kza {
         background-color: #101010;
     }
-    .Jub, .Hub, .nYXukb {
+    .Kza:before {
+        border-top-color: #252525;
+    }
+    .Kza:after {
+        border-top-color: #101010;
+    }
+    .Jub, .Hub, .nYXukb, .xQb, .bhsVm {
         color: #c5c5c5;
     }
     .MNn0h, .MNn0h:hover {
