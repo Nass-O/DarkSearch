@@ -11,7 +11,7 @@
         color: #c5c5c5;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, .gb_Qb, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
         -webkit-filter: invert(1) grayscale(1) !important;
         -moz-filter: invert(1) grayscale(1) !important;
         filter: invert(1) grayscale(1) !important;
@@ -26,7 +26,7 @@
         -moz-filter: grayscale(.6) !important;
         filter: grayscale(.6) !important;
     }
-    ._n0b, .gb_Xb, ._MNk._wtf svg {
+    ._n0b, ._MNk._wtf svg {
         -webkit-filter: invert(.9) !important;
         -moz-filter: invert(.9) !important;
         filter: invert(.9) !important;
@@ -423,7 +423,7 @@
     }
 
     /* Sponsored */
-    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container, ._HSb {
+    .flt-actionblock, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs, .pla-unit-container, ._HSb, .commercial-unit-desktop-top, .commercial-unit-desktop-rhs {
         border-color:  #1D1D1D !important;
     }
     ._pbb, a._pbb, ._oc, ._oc .muse-wta, ._oc .richlist-wta, ._oc ._Sb {
@@ -522,10 +522,10 @@
     }
 
     /* Unit converter */
-    ._Ohf {
-        background-color: #101010 !important;
+    ._Ohf, .ccw_unit_selector, .ccw_selector_bg {
+        background: #101010 !important;
     }
-    ._Ohf, ._eif {
+    ._Ohf, ._eif, .ccw_data, .ccw_unit_selector_cnt {
         border-color: #1d1d1d !important;
     }
 
@@ -733,15 +733,10 @@
         background-color: #1d1d1d;
     }
     .gb_kb {
-        border-bottom-color: #212121;
+        border-bottom-color: #212121!important;
     }
     .gb_Z:hover:not(.gb_0) a, .gb_ma {
         border-color: #333;
-    }
-    .gb_Bb, .gb_xb {
-        background: #1C1C1C;
-        border-top: 1px solid #555;
-        border-color: #343434;
     }
     .gb_xb:active {
         background: #343434;
@@ -753,37 +748,37 @@
         filter: invert(.7);
     }
 
-    /* Google Alerts Dropdown */
+    /* Google Notifications Dropdown */
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_Dc {
+    #gbsfw.gb_Jc {
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_Ac.gb_Bc {
+    .gb_Ac.gb_Bc, .gb_Fc.gb_Hc {
         filter: invert(1) brightness(.9) contrast(.87);
     }
 
     /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob {
+    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob, .gb_Rb {
         color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
         color: #fff !important;
     }
-    .gb_yb {
-        background-color: #1d1d1d;
+    .gb_zb {
+        background-color: #1a1a1a;
     }
     .gb_Ha { /*Buttons: Add account&Logout*/
         background: #222;
         border-color: #222;
     }
-    .gb_Cb { /* multiLogin listing */
+    .gb_Cb, .gb_Eb { /* multiLogin listing */
         background: #212121;
         border-top-color: #333;
     }
-    .gb_Db:hover { /* multiLogin listing on hover */
+    .gb_Db:hover, .gb_Hb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
     }
 
@@ -1097,10 +1092,16 @@
     .vKFgJc, .Ygb, .bxpCne, .tubEcf {
         filter: invert(1);
     }
-    .l4a, .f4a, .f4a.tta {
+    .l4a, .f4a, .f4a.tta, .Kza {
         background-color: #101010;
     }
-    .Jub, .Hub, .nYXukb {
+    .Kza:before {
+        border-top-color: #252525;
+    }
+    .Kza:after {
+        border-top-color: #101010;
+    }
+    .Jub, .Hub, .nYXukb, .xQb, .bhsVm {
         color: #c5c5c5;
     }
     .MNn0h, .MNn0h:hover {
@@ -1108,5 +1109,33 @@
     }
     .MNn0h:hover .YGETNc, .MNn0h.RATVS .YGETNc, .y9fV .YGETNc {
         color: #868686;
+    }
+}
+@-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
+    /* Google Notifications Dropdown iframe */
+
+    .gV6pJf { /*dropdown background*/
+        background-color: #212121;
+    }
+    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb { /*notification background*/
+        background: #151515;
+    }
+    .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 { /*icons*/
+        fill: rgba(255,255,255,.54);
+    }
+    .iWO9fc .mUbCce:hover svg, .yxaWLe:hover svg { /*icons:hover*/
+        fill: rgba(255,255,255,.87);
+    }
+    .XSVuue { /*logo Google*/
+        fill: rgba(255,255,255,.26);
+    }
+    .v7k2xf, .v7k2xf, .gMG7Fd, .wh73ab { /*text*/
+        color: rgba(255,255,255,.87);
+    }
+    .OlDqke, .Vz68Kb { /*subtext*/
+        color: rgba(255,255,255,.54);
+    }
+    .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
+        background-color: #1d1d1d;
     }
 }
