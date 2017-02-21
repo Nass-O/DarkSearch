@@ -764,6 +764,9 @@
     .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob, .gb_Rb {
         color: #c5c5c5 !important;
     }
+    .gb_mb.gb_ha.gb_g, .gb_yb { /* account dropdown panel (top and bottom) */
+        background: #212121; 
+    }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
         color: #fff !important;
     }
@@ -772,11 +775,10 @@
     }
     .gb_Ha { /*Buttons: Add account&Logout*/
         background: #222;
-        border-color: #222;
+        border-color: #333;
     }
     .gb_Cb, .gb_Eb { /* multiLogin listing */
-        background: #212121;
-        border-top-color: #333;
+        background: #222;
     }
     .gb_Db:hover, .gb_Hb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
