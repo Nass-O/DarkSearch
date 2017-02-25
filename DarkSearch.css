@@ -729,6 +729,10 @@
     .gb_ka, .gb_ha, .gb_Z:hover .gb_4 {
         background-color: #212121;
     }
+    .gb_ha {
+        background-color: #212121;
+        border-color: #212121;
+    }
     .gb_la {
         background-color: #1d1d1d;
     }
@@ -752,16 +756,16 @@
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_Jc {
+    #gbsfw.gb_Jc, #gbsfw.gb_Ic {
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_Ac.gb_Bc, .gb_Fc.gb_Hc {
+    .gb_Ec.gb_Fc, .gb_Fc.gb_Hc {
         filter: invert(1) brightness(.9) contrast(.87);
     }
 
     /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob, .gb_Rb {
+    .gb_ha, .gb_Ob {
         color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
@@ -778,7 +782,10 @@
         background: #212121;
         border-top-color: #333;
     }
-    .gb_Db:hover, .gb_Hb:hover { /* multiLogin listing on hover */
+    .gb_Qb {
+        color: #c5c5c5;
+    }
+    .gb_Db:hover, .gb_Hb:hover, .gb_Fb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
     }
 
@@ -1114,10 +1121,11 @@
 @-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
     /* Google Notifications Dropdown iframe */
 
-    .gV6pJf { /*dropdown background*/
-        background-color: #212121;
+    .gV6pJf, #gbsfw.gb_Ic { /*dropdown background*/
+        background: #212121!important;
+        border-color: #212121;
     }
-    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb { /*notification background*/
+    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb, .CxSKqd { /*notification background*/
         background: #151515;
     }
     .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 { /*icons*/
@@ -1137,5 +1145,23 @@
     }
     .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
         background-color: #1d1d1d;
+    }
+    .xMujpb { /*opened notification header bg*/
+        background-color: #1d1d1d;
+    }
+    .E4TZmd, .RIrM6d { /*opened notification bg*/
+        background: #101010;
+    }
+    .utcmad {
+        color: #c5c5c5;
+    }
+    body, .m3JvWd, .g6UaYd, .vGowKb {
+        color: rgba(255,255,255,.87);
+    }
+    .LCX1Id, .XGOYJd>:first-child, .ZYK0Xb {
+        border-top-color: #252525;
+    }
+    .GsLz7c, .sH8mib { /*circle icon bg*/
+        background: #212121;
     }
 }
