@@ -1102,6 +1102,26 @@
         background: #222!important;
     }
 
+    /* Timer */
+    .act-tim-txt-cnt div[style="background-color:white"] {
+        background-color: #161616!important;
+    }
+    .act-tim-fs-cnt:-webkit-full-screen {
+      background-color: #101010!important;
+    }
+    .act-tim-txt-cnt {
+        color: #c5c5c5;
+    }
+    .act-tab-link.act-inactive-tab:hover {
+        color: white;
+    }
+    .act-icon-dark-gray, .act-inactive-tab .act-icon-img {
+        filter: invert(1);
+    }
+    .act-btn-row, .act-tim-fs-cnt {
+        border-top: 1px solid #1d1d1d;
+    }
+
 }
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
     /* Google Alerts Dropdown iframe */
