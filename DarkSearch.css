@@ -6,7 +6,7 @@
      */
 
     /* Background */
-    html, body, #cnt, .rg_l, #botabar {
+    html, body, #cnt, .rg_l, #botabar, .vk_bk {
         background: #101010 !important;
         color: #c5c5c5;
     }
