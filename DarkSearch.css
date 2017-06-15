@@ -726,20 +726,20 @@
     }
 
     /* Frontpage Aplications Dropdown */
-    .gb_ka, .gb_ha, .gb_Z:hover .gb_4 {
+    .gb_ja, .gb_Z:hover .gb_3 {
         background-color: #212121;
     }
     .gb_ha {
         background-color: #212121;
         border-color: #212121;
     }
-    .gb_la {
+    .gb_ka {
         background-color: #1d1d1d;
     }
     .gb_kb {
         border-bottom-color: #212121!important;
     }
-    .gb_Z:hover:not(.gb_0) a, .gb_ma {
+    .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la {
         border-color: #333;
     }
     .gb_xb:active {
@@ -748,7 +748,7 @@
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
     }
-    .gb_fa .gb_b {
+    .gb_fa .gb_b, .gb_4b {
         filter: invert(.7);
     }
 
@@ -756,7 +756,7 @@
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_Jc, #gbsfw.gb_Ic {
+    #gbsfw.gb_Jc, #gbsfw.gb_Ic, .gb_ga {
         background: #212121 !important;
         border-color: #212121 !important;
     }
