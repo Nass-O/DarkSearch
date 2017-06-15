@@ -11,7 +11,7 @@
         color: #c5c5c5;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
         -webkit-filter: invert(1) grayscale(1) !important;
         -moz-filter: invert(1) grayscale(1) !important;
         filter: invert(1) grayscale(1) !important;
