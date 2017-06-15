@@ -763,6 +763,12 @@
     .gb_Ec.gb_Fc, .gb_Fc.gb_Hc {
         filter: invert(1) brightness(.9) contrast(.87);
     }
+    .ez1Qqf {
+        background: #1d1d1d!important;
+    }
+    .qXj2He {
+        color: rgba(255,255,255,.54);
+    }
 
     /* Google Account Dropdown */
     .gb_ha, .gb_Ob {
