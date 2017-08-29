@@ -1,4 +1,4 @@
-@-moz-document regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
+@-moz-document regexp("https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://(ipv4|www).google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?/((\\?|webhp|search|gfe_rd|auth|gws_rd|#q|imghp|#gfe_rd|#safe|#pws|#tbs|#gws|#tbm).*)"), regexp("https?://encrypted.google.(com|([a-z]{2}))(.[a-z]{2})?."), regexp("https?://www.google.(com|([a-z]{2}))(.[a-z]{2})?/_/chrome/newtab\\?.*") {
     /*
      * Name:    DarkSearch for Google
      * Author:  Nass O
@@ -6,12 +6,12 @@
      */
 
     /* Background */
-    html, body, #cnt, .rg_l, #botabar {
+    html, body, #cnt, .rg_l, #botabar, .vk_bk, a._sWr {
         background: #101010 !important;
         color: #c5c5c5;
     }
     /* Inverting colors */
-    .qbh, .s2tb .google-logo, .gb_Vb, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
+    .qbh, .s2tb .google-logo, #wob_gsp, ._kac, #qbi, .ab_icon, .gsok_a, ._Fnc, ._Jxg, .stt-uf, ._dVi, .kcb.checked::after, ._gW {
         -webkit-filter: invert(1) grayscale(1) !important;
         -moz-filter: invert(1) grayscale(1) !important;
         filter: invert(1) grayscale(1) !important;
@@ -726,16 +726,20 @@
     }
 
     /* Frontpage Aplications Dropdown */
-    .gb_ka, .gb_ha, .gb_Z:hover .gb_4 {
+    .gb_ja, .gb_Z:hover .gb_3, ul[aria-dropeffect="move"] {
         background-color: #212121;
     }
-    .gb_la {
+    .gb_ha {
+        background-color: #212121;
+        border-color: #212121;
+    }
+    .gb_ka {
         background-color: #1d1d1d;
     }
-    .gb_kb {
+    .gb_kb, .gb_lb {
         border-bottom-color: #212121!important;
     }
-    .gb_Z:hover:not(.gb_0) a, .gb_ma {
+    .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la, .gb_ka {
         border-color: #333;
     }
     .gb_xb:active {
@@ -744,7 +748,7 @@
     #gb#gb a.gb_O, .gb_ga, .gb_Jb {
         color: #c5c5c5;
     }
-    .gb_fa .gb_b {
+    .gb_fa .gb_b, .gb_4b {
         filter: invert(.7);
     }
 
@@ -752,16 +756,22 @@
     .gb_zc .gb_kb {
         border-bottom-color: #212121 !important;
     }
-    #gbsfw.gb_Jc {
+    #gbsfw.gb_Jc, #gbsfw.gb_Ic, .gb_ga {
         background: #212121 !important;
         border-color: #212121 !important;
     }
-    .gb_Ac.gb_Bc, .gb_Fc.gb_Hc {
+    .gb_Ec.gb_Fc, .gb_Fc.gb_Hc {
         filter: invert(1) brightness(.9) contrast(.87);
+    }
+    .ez1Qqf {
+        background: #1d1d1d!important;
+    }
+    .qXj2He {
+        color: rgba(255,255,255,.54) !important;
     }
 
     /* Google Account Dropdown */
-    .gb_ha, #gb a.gb_Ha.gb_Ha, .gb_Ob, .gb_Rb {
+    .gb_ha, .gb_Ob, .gb_Rb, .gb_fa {
         color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
@@ -770,15 +780,24 @@
     .gb_zb {
         background-color: #1a1a1a;
     }
-    .gb_Ha { /*Buttons: Add account&Logout*/
+    .gb_Fa, .gb_zb .gb_yb:hover { /*Buttons: Add account&Logout*/
         background: #222;
-        border-color: #222;
+        border-color: #333;
     }
-    .gb_Cb, .gb_Eb { /* multiLogin listing */
+    .gb_yb { /*Buttons bg: Add account&Logout*/
+        background: #1d1d1d;
+        border-top: 1px solid #222;
+        border-color: rgba(0,0,0,.2);
+    }
+    .gb_Db, .gb_fa, .gb_Fb {  /* multiLogin listing */
         background: #212121;
-        border-top-color: #333;
+        border-top: 1px solid #333;
+        border-top-color: rgba(0,0,0,.2);
     }
-    .gb_Db:hover, .gb_Hb:hover { /* multiLogin listing on hover */
+    .gb_Pb {
+        color: #c5c5c5;
+    }
+    .gb_Eb:hover, .gb_Hb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
     }
 
@@ -1083,6 +1102,26 @@
         background: #222!important;
     }
 
+    /* Timer */
+    .act-tim-txt-cnt div[style="background-color:white"] {
+        background-color: #161616!important;
+    }
+    .act-tim-fs-cnt:-webkit-full-screen {
+      background-color: #101010!important;
+    }
+    .act-tim-txt-cnt {
+        color: #c5c5c5;
+    }
+    .act-tab-link.act-inactive-tab:hover {
+        color: white;
+    }
+    .act-icon-dark-gray, .act-inactive-tab .act-icon-img {
+        filter: invert(1);
+    }
+    .act-btn-row, .act-tim-fs-cnt {
+        border-top: 1px solid #1d1d1d;
+    }
+
 }
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
     /* Google Alerts Dropdown iframe */
@@ -1114,10 +1153,11 @@
 @-moz-document regexp("https?://notifications.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/widget\\?.*") {
     /* Google Notifications Dropdown iframe */
 
-    .gV6pJf { /*dropdown background*/
-        background-color: #212121;
+    .gV6pJf, #gbsfw.gb_Ic { /*dropdown background*/
+        background: #212121!important;
+        border-color: #212121;
     }
-    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb { /*notification background*/
+    .CxSKqd.PNdSh, .CxSKqd.Wj1LYb, .CxSKqd { /*notification background*/
         background: #151515;
     }
     .iWO9fc .mUbCce svg, .yxaWLe svg, .ajgU6 { /*icons*/
@@ -1137,5 +1177,23 @@
     }
     .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
         background-color: #1d1d1d;
+    }
+    .xMujpb { /*opened notification header bg*/
+        background-color: #1d1d1d;
+    }
+    .E4TZmd, .RIrM6d { /*opened notification bg*/
+        background: #101010;
+    }
+    .utcmad {
+        color: #c5c5c5;
+    }
+    body, .m3JvWd, .g6UaYd, .vGowKb {
+        color: rgba(255,255,255,.87);
+    }
+    .LCX1Id, .XGOYJd>:first-child, .ZYK0Xb {
+        border-top-color: #252525;
+    }
+    .GsLz7c, .sH8mib { /*circle icon bg*/
+        background: #212121;
     }
 }
