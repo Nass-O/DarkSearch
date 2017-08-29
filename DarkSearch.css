@@ -726,7 +726,7 @@
     }
 
     /* Frontpage Aplications Dropdown */
-    .gb_ja, .gb_Z:hover .gb_3 {
+    .gb_ja, .gb_Z:hover .gb_3, ul[aria-dropeffect="move"] {
         background-color: #212121;
     }
     .gb_ha {
@@ -736,10 +736,10 @@
     .gb_ka {
         background-color: #1d1d1d;
     }
-    .gb_kb {
+    .gb_kb, .gb_lb {
         border-bottom-color: #212121!important;
     }
-    .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la {
+    .gb_Z:hover:not(.gb_0) a, .gb_ma, .gb_la, .gb_ka {
         border-color: #333;
     }
     .gb_xb:active {
@@ -771,7 +771,7 @@
     }
 
     /* Google Account Dropdown */
-    .gb_ha, .gb_Ob {
+    .gb_ha, .gb_Ob, .gb_Rb, .gb_fa {
         color: #c5c5c5 !important;
     }
     #gb .gb_rb a.gb_xb.gb_xb { /*My account button fix*/
@@ -780,7 +780,7 @@
     .gb_zb {
         background-color: #1a1a1a;
     }
-    .gb_Fa { /*Buttons: Add account&Logout*/
+    .gb_Fa, .gb_zb .gb_yb:hover { /*Buttons: Add account&Logout*/
         background: #222;
         border-color: #333;
     }
@@ -789,7 +789,7 @@
         border-top: 1px solid #222;
         border-color: rgba(0,0,0,.2);
     }
-    .gb_Db {  /* multiLogin listing */
+    .gb_Db, .gb_fa, .gb_Fb {  /* multiLogin listing */
         background: #212121;
         border-top: 1px solid #333;
         border-top-color: rgba(0,0,0,.2);
@@ -797,7 +797,7 @@
     .gb_Pb {
         color: #c5c5c5;
     }
-    .gb_Eb:hover { /* multiLogin listing on hover */
+    .gb_Eb:hover, .gb_Hb:hover { /* multiLogin listing on hover */
         background: #1d1d1d;
     }
 
