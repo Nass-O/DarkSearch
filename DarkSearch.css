@@ -16,8 +16,8 @@
     .vk-box { background-color: black !important; border: none !important; }
     .vk-t { color: #c5c5c5 !important; }
     .vk-btn { border: none !important; color: #c5c5c5 !important; background-color: #0c0c0c !important; background-image: none !important; }
-
-
+   
+    
     /* Background */
     html, body, #cnt, .rg_l, #botabar {
         background: #101010 !important;
@@ -1154,6 +1154,15 @@
     
 }
        
+    /* sign in */
+    @-moz-document domain("accounts.google.com") {
+       
+       #initialView { background-color: black !important; background: black !important; color: #c5c5c5 !important; }
+       path { fill: #0c0c0c !important; }
+       #logo, .vRMGwf { filter: invert(100%) hue-rotate(180deg) !important; }       
+        
+}
+
     /* google translate */
     @-moz-document domain("translate.google.com") {
 
