@@ -4,7 +4,20 @@
      * Author:  Nass O
      * Version: v2.1.8
      */
+    
+    /* Looking for results in English? */
+    #_L8b { background-color: #0c0c0c !important; border: 1px solid black !important; } 
+    #_L8b div div { color: #c5c5c5 !important; }
 
+    /* more and settings tab */
+    ._dMq { background-color: black !important; }
+    
+    /* virtual keyboard */
+    .vk-box { background-color: black !important; border: none !important; }
+    .vk-t { color: #c5c5c5 !important; }
+    .vk-btn { border: none !important; color: #c5c5c5 !important; background-color: #0c0c0c !important; background-image: none !important; }
+   
+    
     /* Background */
     html, body, #cnt, .rg_l, #botabar {
         background: #101010 !important;
@@ -1138,4 +1151,44 @@
     .fEjTrb, .jvWPmb.qs41qe .fEjTrb { /*footer-bar*/
         background-color: #1d1d1d;
     }
+    
+}
+       
+    /* sign in */
+    @-moz-document domain("accounts.google.com") {
+       
+       #initialView { background-color: black !important; background: black !important; color: #c5c5c5 !important; }
+       path { fill: #0c0c0c !important; }
+       #logo, .vRMGwf { filter: invert(100%) hue-rotate(180deg) !important; }       
+        
+}
+
+    /* google translate */
+    @-moz-document domain("translate.google.com") {
+
+    body { background-color: #0c0c0c !important; color: #c5c5c5 !important; }
+    .gb_uf { background-color: black !important; }
+    .gb_Fc { filter: invert(100%) hue-rotate(180deg) !important; }
+    #gt-appbar { background-color: #0c0c0c; border: none !important; }
+    #gt-pb-sw1 .jfk-button { filter: invert(100%) hue-rotate(180deg) !important; }
+    #gt-apb-main { background-color: #0c0c0c; }
+    #gt-ft-res { border-top: none; background-color: black; }  
+    #gt-ft-res a { color: #c5c5c5 !important; }
+    #gt-text-c { background-color: #0c0c0c; }
+    #gt-c { background-color: #0c0c0c; }
+    a:link { color: #4285f4 !important; }
+    a:link:hover { color: #2e5daa !important; }
+    #gb a.gb_Fa.gb_Fa { color: black !important; }
+    #gt-src-wrap, gt-src-wrap.focus { border: none !important; background-color: black; }
+    #gt-src-tools { background-color: black !important; }
+    .gt-src-cc-normal { color: #c5c5c5 !important; }
+    .gt-hl-layer { border: none; }
+    #source { color: #c5c5c5; }
+    #gt-res-wrap { border: none; background-color: black; }
+    #result_box { color: #c5c5c5; }
+    #gt-lang-src, #gt-swap, #gt-lang-tgt, .goog-menu, #gt-res-tools-r, #gt-res-tools-t, #gt-res-tools-l { filter: invert(100%) hue-rotate(180deg) !important; }
+    .jfk-button-standard.jfk-button-checked { background-image: none !important; background-color: white; }
+    .cp-promo-bottom { border-top: none; background-color: black; }
+    .gt-rw-div, .gt-def-row, .gt-card-ttl-txt, .gt-baf-word-clickable, .gt-syn-span, .gt-baf-hl { color: #c5c5c5 !important; }
+    
 }
