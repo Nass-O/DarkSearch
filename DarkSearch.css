@@ -902,3 +902,12 @@ textarea {
 #isz_ex > div > div > div.exydlg > div.exyttl {
     color: #a3a3a3!important;
 }
+
+/* Fix for card text colors */
+._XWk {
+    color: #ccc!important;
+}
+
+._aMb {
+    color: #ccc!important;
+}
