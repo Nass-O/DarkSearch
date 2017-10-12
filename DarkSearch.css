@@ -1081,7 +1081,33 @@
     /* Button hover in search bar fix */
     .sbibod button:hover {
         background: #222!important;
-    }
+        
+}
+    ul.gb_ia.gb_ba {
+    background-color: #252525;
+}
+a.gb_ja.gb_Hf {
+    background-color: #252525;
+}
+ul.gb_ia.gb_ca {
+    background-color: #252525;
+
+}
+a.gb_b.gb_6b {
+    background-color:#252525;
+    
+}
+.gb_lb {
+  
+    border-bottom-color: #252525;
+}
+.gb_3 {
+ 
+    color: #797878;
+}
+.gb_ka{
+    background-color: #212121;
+
 
 }
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
