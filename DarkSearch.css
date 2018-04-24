@@ -1082,6 +1082,11 @@
     .sbibod button:hover {
         background: #222!important;
     }
+    
+    /* Make synonyms text more readable */
+    .SDZsVb, .lr_dct_more_btn {
+        color: #8BADEF !important;
+    }
 
 }
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
