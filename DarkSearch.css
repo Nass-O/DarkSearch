@@ -1083,9 +1083,14 @@
         background: #222!important;
     }
     
-    /* Make synonyms text more readable */
-    .SDZsVb, .lr_dct_more_btn {
+    /* Synonyms text */
+    .SDZsVb {
         color: #8BADEF !important;
+    }
+    
+    /* More button */
+    .lr_dct_more_btn {
+        color: #ccddff !important;
     }
 
 }
