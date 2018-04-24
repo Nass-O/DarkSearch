@@ -1083,6 +1083,36 @@
         background: #222!important;
     }
 
+    /* Rules to make Q/A sites match the theme */
+    .ZINbbc {
+        background-color: #3e3b3b;
+        color: #bcb8b8;
+    }
+    
+    .zDBTmf > div {
+    	background-color: #1d1b1b;
+    color: white;
+    }
+    
+    .eUrIee {
+    	color: rgba(198, 194, 194, 0.9);
+    }
+    
+    .XO51F {
+        color: rgba(242, 242, 242, 0.9);
+    }
+    
+    .ATPAKc {
+    	color: rgba(209, 205, 205, 0.5);
+    }
+    
+    /* URL text - lighten up default green */
+    .QHTnWc {
+    	color: #33844d;
+    	white-space: nowrap;
+    }
+    /* End Q/A Rules */
+    
 }
 @-moz-document regexp("https?://plus.google.(com|([a-z]{2}))(.[a-z]{2})?/u/0/_/notifications/frame\\?.*") {
     /* Google Alerts Dropdown iframe */
